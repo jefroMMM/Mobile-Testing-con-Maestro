@@ -18,8 +18,8 @@
     "https://docs.maestro.dev/reference/commands-available/stopapp.md",
     "https://docs.maestro.dev/reference/commands-available/takescreenshot.md"
   ],
-  "sha256": "31619f3a50c062dc395f2f4338864aed046ce4b4a0ef7bd28bf5d7703ea2c14a",
+  "sha256": "0bcea20abab99eaca201f6f776cf28be5f52aa6a97cf546d51e9944a34fb074f",
   "reportlabVersion": "4.4.9",
-  "checkedAtGuatemala": "2026-10-29T19:17:14.694077-06:00",
-  "visualReview": "Pages rendered with Poppler and visually reviewed; table, figures, captions, links and footers are legible, without clipping."
+  "checkedAtGuatemala": "2026-10-29T19:52:25.313622-06:00",
+  "visualReview": "PDF regenerado tras retirar el material solicitado. 15 páginas y cinco imágenes de evidencia; página final renderizada con Poppler y revisada visualmente, con enlaces y pie legibles y sin texto cortado."
 }

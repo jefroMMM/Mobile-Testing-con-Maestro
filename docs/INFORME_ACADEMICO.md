@@ -226,7 +226,6 @@ La ejecución real transformó los recorridos en evidencia verificable mediante 
 - Descarga pública del PDF: https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf
 - README reproducible: `README.md`.
 - Evidencias: `evidencias/`.
-- Guion de exposición: `GUION_EXPOSICION.md`.
 
 El APK y el PDF están publicados como adjuntos de la release `entrega-v1.0.0`. Ambas descargas públicas respondieron HTTP 200 y coincidieron con los archivos locales. La evidencia de publicación se conserva en `evidencias/publicacion-verificada.json`. El APK publicado tiene 17 201 bytes y conserva el SHA-256 de la compilación probada en CI.
 

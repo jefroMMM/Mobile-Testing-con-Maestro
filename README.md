@@ -57,7 +57,6 @@ app/                              Código y recursos Android
 scripts/                          Instalación, compilación y pruebas en PowerShell
 docs/INFORME_ACADEMICO.md           Contenido editable del informe
 docs/RUBRICA.md                    Auditoría de criterios y pendientes
-GUION_EXPOSICION.md                Guion de tres minutos
 evidencias/                       Logs, resultados y capturas reales
 output/apk/                       APK local, excluido del historial
 output/pdf/                       Informe PDF final
@@ -223,7 +222,6 @@ Un fallo del entorno se documenta por separado de una assertion fallida. Nunca d
 - [Repositorio](https://github.com/jefroMMM/Mobile-Testing-con-Maestro).
 - Contenido editable del [informe académico](docs/INFORME_ACADEMICO.md).
 - [Informe PDF final](output/pdf/informe-academico.pdf): generado y revisado visualmente, 15 páginas.
-- [Guion de exposición](GUION_EXPOSICION.md).
 - [Auditoría de la rúbrica](docs/RUBRICA.md).
 - [Release de entrega `entrega-v1.0.0`](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/tag/entrega-v1.0.0).
 - [Descargar APK instalable](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/taskflow-debug.apk), original de CI, 17 201 bytes; su SHA-256 figura arriba.
