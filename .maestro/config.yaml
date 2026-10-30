@@ -1,0 +1,6 @@
+# Solo los tres escenarios de la rúbrica forman parte de la suite principal.
+# El flujo adicional se ejecuta explícitamente desde extras/.
+flows:
+  - "01-crear-tarea.yaml"
+  - "02-validar-nombre.yaml"
+  - "03-persistencia.yaml"

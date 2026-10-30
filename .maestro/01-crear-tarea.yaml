@@ -1,0 +1,34 @@
+appId: dev.maestro.taskflow
+name: "01 - Crear una tarea valida"
+tags:
+  - rubrica
+  - funcional
+---
+# La limpieza ocurre antes del recorrido, nunca depende de otro escenario.
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible:
+      id: "dev.maestro.taskflow:id/empty_state"
+    timeout: 30000
+- assertVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- tapOn:
+    id: "dev.maestro.taskflow:id/new_task_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_name_input"
+- tapOn:
+    id: "dev.maestro.taskflow:id/task_name_input"
+- inputText: "Preparar entrega de Maestro"
+- hideKeyboard
+- tapOn:
+    id: "dev.maestro.taskflow:id/save_task_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_title"
+    text: "Preparar entrega de Maestro"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_count"
+    text: "1 tarea.*0 completadas"
+- assertNotVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- takeScreenshot: "01-creacion/resultado"

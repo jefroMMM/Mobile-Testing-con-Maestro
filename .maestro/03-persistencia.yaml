@@ -1,0 +1,45 @@
+appId: dev.maestro.taskflow
+name: "03 - Conservar una tarea al cerrar y reabrir"
+tags:
+  - rubrica
+  - condicion-movil
+---
+# Solo esta apertura borra datos. La reapertura posterior los conserva.
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible:
+      id: "dev.maestro.taskflow:id/empty_state"
+    timeout: 30000
+- assertVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- tapOn:
+    id: "dev.maestro.taskflow:id/new_task_button"
+- tapOn:
+    id: "dev.maestro.taskflow:id/task_name_input"
+- inputText: "Revisar tarea persistente"
+- hideKeyboard
+- tapOn:
+    id: "dev.maestro.taskflow:id/save_task_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_title"
+    text: "Revisar tarea persistente"
+- takeScreenshot: "03-persistencia/antes"
+# stopApp detiene el proceso sin borrar SharedPreferences.
+- stopApp
+- launchApp:
+    clearState: false
+- extendedWaitUntil:
+    visible:
+      id: "dev.maestro.taskflow:id/task_title"
+      text: "Revisar tarea persistente"
+    timeout: 30000
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_title"
+    text: "Revisar tarea persistente"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_count"
+    text: "1 tarea.*0 completadas"
+- assertNotVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- takeScreenshot: "03-persistencia/despues"

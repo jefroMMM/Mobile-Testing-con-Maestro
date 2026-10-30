@@ -1,0 +1,48 @@
+appId: dev.maestro.taskflow
+name: "04 - Completar una tarea y conservar su estado"
+tags:
+  - adicional
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible:
+      id: "dev.maestro.taskflow:id/empty_state"
+    timeout: 30000
+- assertVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- tapOn:
+    id: "dev.maestro.taskflow:id/new_task_button"
+- tapOn:
+    id: "dev.maestro.taskflow:id/task_name_input"
+- inputText: "Completar tarea de ejemplo"
+- hideKeyboard
+- tapOn:
+    id: "dev.maestro.taskflow:id/save_task_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_title"
+    text: "Completar tarea de ejemplo"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_complete"
+    checked: false
+- tapOn:
+    id: "dev.maestro.taskflow:id/task_complete"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_complete"
+    checked: true
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_status"
+    text: "Completada"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_count"
+    text: "1 tarea.*1 completada"
+- stopApp
+- launchApp:
+    clearState: false
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_title"
+    text: "Completar tarea de ejemplo"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_complete"
+    checked: true
+- takeScreenshot: "04-completar/resultado"

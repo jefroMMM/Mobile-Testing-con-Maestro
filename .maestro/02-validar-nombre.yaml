@@ -1,0 +1,37 @@
+appId: dev.maestro.taskflow
+name: "02 - Impedir una tarea sin nombre"
+tags:
+  - rubrica
+  - validacion
+---
+- launchApp:
+    clearState: true
+- extendedWaitUntil:
+    visible:
+      id: "dev.maestro.taskflow:id/empty_state"
+    timeout: 30000
+- assertVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- tapOn:
+    id: "dev.maestro.taskflow:id/new_task_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_name_input"
+# No se introduce texto: se intenta guardar el campo obligatorio vacío.
+- tapOn:
+    id: "dev.maestro.taskflow:id/save_task_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/validation_error"
+    text: "El nombre de la tarea es obligatorio."
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_name_input"
+- takeScreenshot: "02-validacion/error"
+- tapOn:
+    id: "dev.maestro.taskflow:id/back_button"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/empty_state"
+- assertVisible:
+    id: "dev.maestro.taskflow:id/task_count"
+    text: "0 tareas.*0 completadas"
+- assertNotVisible:
+    id: "dev.maestro.taskflow:id/task_title"
+- takeScreenshot: "02-validacion/lista-vacia"
