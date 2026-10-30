@@ -11,7 +11,9 @@ try {
     $flows = @{'all'='.maestro'; '01'='.maestro/01-crear-tarea.yaml'; '02'='.maestro/02-validar-nombre.yaml'; '03'='.maestro/03-persistencia.yaml'; 'extra'='.maestro/extras/04-completar-tarea.yaml'}
     $prefix = @('--no-ansi')
     if ($Device) { $prefix += @('--device', $Device) }
-    & adb devices -l 2>&1 | Out-File -LiteralPath "$runDir/devices.txt"
+    & adb devices 2>&1 | ForEach-Object { $_ -replace '^(\S+)(\s+(?:device|unauthorized|offline)\b)', '[serial omitido]$2' } | Out-File -LiteralPath "$runDir/devices.txt"
+    & git rev-parse HEAD | Out-File -LiteralPath "$runDir/tested-commit.txt"
+    & maestro --version 2>&1 | Out-File -LiteralPath "$runDir/maestro-version.txt"
     & maestro @prefix test --format junit --output "$runDir/results.xml" --test-output-dir "$runDir/artifacts" --debug-output "$runDir/debug" $flows[$Scenario] 2>&1 | Tee-Object -LiteralPath "$runDir/maestro.log"
     $code = $LASTEXITCODE
     @{ scenario=$Scenario; timestamp=$stamp; timezone='America/Guatemala'; exitCode=$code; result=$(if($code -eq 0){'aprobado'}else{'fallido'}); command='Maestro CLI test'; } | ConvertTo-Json | Set-Content -LiteralPath "$runDir/result.json" -Encoding utf8
