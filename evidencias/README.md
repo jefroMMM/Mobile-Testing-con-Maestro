@@ -16,6 +16,8 @@ El registro comenzó en `2026-10-29T18:59:53-0600` (Guatemala), equivalente a `2
 - `build/local-gradle.log`: compilación y lint local aprobados en Windows; se sustituyó únicamente la ruta personal del proyecto por una indicación explícita.
 - `environment-windows.json`: versiones verificadas localmente, sin publicar el serial del teléfono. Los registros temporales de instalación y licencias se conservan localmente, fuera del historial.
 - `resultados-verificados.json`: resumen derivado de los JUnit y de los comandos completados, reproducible con `python scripts/summarize-results.py`.
+- `pdf-verificacion.json`: revisión del PDF final, 15 páginas, cinco capturas incrustadas y enlaces comprobados.
+- `publicacion-verificada.json`: descargas públicas del APK y PDF, respuestas HTTP 200 y SHA-256 coincidentes.
 - `historial/`: intentos previos, incluido checksum mal transcrito y fallo de lint por atributo API 27 con mínimo API 26, corregidos antes de la ejecución aprobada.
 
 ## Capturas estables

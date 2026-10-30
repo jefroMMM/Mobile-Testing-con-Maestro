@@ -14,10 +14,10 @@ Revisión: **29 de octubre de 2026**, zona `America/Guatemala`. Evidencia princi
 - [x] Evidencias auténticas: logs, JUnit, diagnósticos y capturas originales de CI, con copias de consulta sin editar.
 - [x] Resultados observados documentados: tres casos aprobados, suite 3/3 y caso adicional aprobado.
 - [x] README reproducible: comandos con estructura real, scripts y workflow comprobado; build/lint también aprobados localmente.
-- [ ] APK accesible mediante enlace público permanente: APK descargado y SHA-256 verificado; release pendiente de confirmación.
-- [x] Commit identificado: código probado `70268e2ca5a730477c965ef0430aacb8f87a7749`; etiqueta final prevista `entrega-v1.0.0`.
+- [x] APK accesible mediante enlace público permanente: release `entrega-v1.0.0` publicada; descarga HTTP 200 y SHA-256 coincidente con el APK probado.
+- [x] Commit identificado: código probado `70268e2ca5a730477c965ef0430aacb8f87a7749`; etiqueta publicada `entrega-v1.0.0`.
 - [x] Informe PDF completo: generado y revisado visualmente, 15 páginas con cinco figuras auténticas y tabla comparativa legible, sin recortes.
-- [ ] Enlaces correctos de entrega final: repositorio, commit y CI disponibles; falta confirmar release, descarga APK y PDF.
+- [x] Enlaces correctos de entrega final: repositorio, commit, CI y release verificados; APK y PDF descargados por URL pública con HTTP 200 y hash coincidente.
 
 ## Resultados comprobados
 
@@ -35,4 +35,13 @@ Revisión: **29 de octubre de 2026**, zona `America/Guatemala`. Evidencia princi
 
 Las pruebas acreditadas se realizaron en el emulador Android 10/API 29 de GitHub Actions, acelerado con KVM. La compilación y lint también aprobaron en Windows. La instalación opcional en un Xiaomi Android 16 fue bloqueada con `INSTALL_FAILED_USER_RESTRICTED`; no se atribuyen pruebas físicas aprobadas. El usuario eligió continuar con el emulador, suficiente para los escenarios requeridos. No se necesita modificar el teléfono para entregar o reproducir el workflow.
 
-La etiqueta final podrá apuntar a un commit posterior que agregue documentación y evidencias; el commit de código efectivamente ejecutado permanece identificado. Los pendientes solo deben marcarse al confirmar publicación y revisión final.
+La etiqueta de entrega identifica la publicación; el commit del código efectivamente ejecutado permanece identificado por separado. La comprobación pública se conserva en `evidencias/publicacion-verificada.json`.
+
+## Enlaces de entrega
+
+- [Release entrega-v1.0.0](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/tag/entrega-v1.0.0).
+- [APK instalable](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/taskflow-debug.apk).
+- [Informe PDF](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf).
+- [Commit probado](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/commit/70268e2ca5a730477c965ef0430aacb8f87a7749).
+
+Única acción académica manual: adjuntar el PDF y los enlaces en la actividad de Canvas. No se dispone de acceso a esa plataforma. Personalizar los datos de portada es opcional; no se inventaron datos institucionales o del docente.

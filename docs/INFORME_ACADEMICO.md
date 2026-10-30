@@ -68,7 +68,7 @@ Los tres flujos se encuentran en archivos YAML separados. Cada uno restablece lo
 
 Archivo: `.maestro/01-crear-tarea.yaml`.
 
-El flujo comienza con `launchApp` y `clearState: true`, espera el estado vacío y abre el formulario con `new_task_button`. Introduce «Preparar entrega de Maestro» en `task_name_input`, oculta el teclado y pulsa `save_task_button`. Comprueba el título y el contador de una tarea; además, exige que desaparezca el estado vacío. La captura prevista se identifica como `01-creacion/resultado`.
+El flujo comienza con `launchApp` y `clearState: true`, espera el estado vacío y abre el formulario con `new_task_button`. Introduce «Preparar entrega de Maestro» en `task_name_input`, oculta el teclado y pulsa `save_task_button`. Comprueba el título y el contador de una tarea; además, exige que desaparezca el estado vacío. La captura generada se identifica como `01-creacion/resultado`.
 
 **Resultado observado:** aprobado. El título «Preparar entrega de Maestro» apareció en la lista, el contador indicó una tarea y no apareció el estado vacío. El caso individual completó sus assertions en 18.535 s, con `SUCCESS` y cero fallos en JUnit.
 
@@ -76,7 +76,7 @@ El flujo comienza con `launchApp` y `clearState: true`, espera el estado vacío 
 
 Archivo: `.maestro/02-validar-nombre.yaml`.
 
-Después de preparar la lista vacía, el flujo abre el formulario y pulsa Guardar sin introducir texto. Comprueba el mensaje «El nombre de la tarea es obligatorio.» mediante el ID `validation_error`. Conserva una captura del error, vuelve a la lista y comprueba tres condiciones: estado vacío visible, contador de cero tareas y ausencia de `task_title`. Las capturas previstas son `02-validacion/error` y `02-validacion/lista-vacia`.
+Después de preparar la lista vacía, el flujo abre el formulario y pulsa Guardar sin introducir texto. Comprueba el mensaje «El nombre de la tarea es obligatorio.» mediante el ID `validation_error`. Conserva una captura del error, vuelve a la lista y comprueba tres condiciones: estado vacío visible, contador de cero tareas y ausencia de `task_title`. Las capturas generadas son `02-validacion/error` y `02-validacion/lista-vacia`.
 
 **Resultado observado:** aprobado. Se mostró el mensaje obligatorio y, al regresar, la lista permaneció vacía con cero tareas y ningún título. El caso individual completó sus assertions en 11.731 s. La comprobación de la lista complementa el mensaje de error y verifica que no se guardó una tarea inválida.
 
@@ -84,7 +84,7 @@ Después de preparar la lista vacía, el flujo abre el formulario y pulsa Guarda
 
 Archivo: `.maestro/03-persistencia.yaml`.
 
-El flujo limpia datos únicamente al inicio, crea «Revisar tarea persistente» y verifica que el título existe. Captura el estado anterior, ejecuta `stopApp` y abre de nuevo con `clearState: false`. Después comprueba el mismo título, el contador de una tarea y la ausencia del estado vacío. Las capturas previstas se identifican como `03-persistencia/antes` y `03-persistencia/despues`.
+El flujo limpia datos únicamente al inicio, crea «Revisar tarea persistente» y verifica que el título existe. Captura el estado anterior, ejecuta `stopApp` y abre de nuevo con `clearState: false`. Después comprueba el mismo título, el contador de una tarea y la ausencia del estado vacío. Las capturas generadas se identifican como `03-persistencia/antes` y `03-persistencia/despues`.
 
 La detención del proceso y su nueva apertura ejercitan la recuperación desde almacenamiento local. No se borra información entre ambos momentos. Esta condición representa un ciclo de vida móvil concreto; su alcance no comprende reinicio del sistema operativo, falta de energía ni corrupción del almacenamiento.
 
@@ -203,11 +203,11 @@ También puede reproducirse mediante GitHub: abrir **Actions → Android y Maest
 
 ## 11. Limitaciones
 
-La compilación, lint y los recorridos móviles aprobaron en el emulador Android 10 de CI. Se intentó instalar el APK en el teléfono Xiaomi Android 16, pero Android devolvió `INSTALL_FAILED_USER_RESTRICTED: Install canceled by user`. La instalación fue bloqueada por la política del teléfono y no se ejecutaron allí los recorridos. Se continuó con la alternativa de emulador, ya aprobada, sin necesitar el teléfono para la entrega. La virtualización de firmware está desactivada en el equipo Windows, por lo que no se utilizó un emulador local. El PDF se generó y revisó visualmente: 15 páginas con cinco figuras y tabla comparativa legible. Solo queda pendiente confirmar la publicación final del APK y del PDF en la release.
+La compilación, lint y los recorridos móviles aprobaron en el emulador Android 10 de CI. Se intentó instalar el APK en el teléfono Xiaomi Android 16, pero Android devolvió `INSTALL_FAILED_USER_RESTRICTED: Install canceled by user`. La instalación fue bloqueada por la política del teléfono y no se ejecutaron allí los recorridos. Se continuó con la alternativa de emulador, ya aprobada, sin necesitar el teléfono para la entrega. La virtualización de firmware está desactivada en el equipo Windows, por lo que no se utilizó un emulador local. El PDF se generó y revisó visualmente: 15 páginas con cinco figuras y tabla comparativa legible. La release se publicó y sus descargas de APK y PDF se comprobaron con HTTP 200 y hash coincidente.
 
 El alcance funcional no incluye edición, eliminación individual ni sincronización entre dispositivos. Los datos se eliminan al limpiar el almacenamiento de la aplicación o desinstalarla. Las pruebas cubren recorridos concretos; no constituyen un análisis exhaustivo de accesibilidad, rendimiento, seguridad ni compatibilidad con todos los modelos Android.
 
-No se dispone de acceso acreditado a Canvas. El contenido se entrega editable y preparado para generar un PDF que se adjunte en la actividad correspondiente. Los datos de institución y docente no se inventan.
+No se dispone de acceso acreditado a Canvas. El informe final se entrega en PDF y como contenido editable; el estudiante debe entrar a la actividad y adjuntar el PDF, el repositorio y el enlace del APK. Puede personalizar los datos académicos de la portada si lo desea. Los datos de institución y docente no se inventan.
 
 ## 12. Conclusiones
 
@@ -218,16 +218,17 @@ La ejecución real transformó los recorridos en evidencia verificable mediante 
 ## 13. Enlaces y versión de entrega
 
 - Repositorio: https://github.com/jefroMMM/Mobile-Testing-con-Maestro
-- Código fuente ya publicado en GitHub; identificador final previsto: etiqueta `entrega-v1.0.0`, pendiente de publicación y verificación.
+- Release publicada y verificada: https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/tag/entrega-v1.0.0
 - Commit probado: https://github.com/jefroMMM/Mobile-Testing-con-Maestro/commit/70268e2ca5a730477c965ef0430aacb8f87a7749
-- APK generado y descargado de CI; ubicación de compilación: `output/apk/taskflow-debug.apk`. Publicación final pendiente.
+- APK instalable, original de CI: https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/taskflow-debug.apk
 - Ejecución de CI: https://github.com/jefroMMM/Mobile-Testing-con-Maestro/actions/runs/40982924351
 - PDF final: `output/pdf/informe-academico.pdf`, generado y revisado visualmente.
+- Descarga pública del PDF: https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf
 - README reproducible: `README.md`.
 - Evidencias: `evidencias/`.
 - Guion de exposición: `GUION_EXPOSICION.md`.
 
-El APK y el PDF se publicarán como adjuntos de una GitHub Release. No se presenta un enlace de descarga como disponible hasta verificar su existencia y acceso.
+El APK y el PDF están publicados como adjuntos de la release `entrega-v1.0.0`. Ambas descargas públicas respondieron HTTP 200 y coincidieron con los archivos locales. La evidencia de publicación se conserva en `evidencias/publicacion-verificada.json`. El APK publicado tiene 17 201 bytes y conserva el SHA-256 de la compilación probada en CI.
 
 ## Referencias
 

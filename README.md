@@ -20,7 +20,7 @@ Fecha de revisión: **29 de octubre de 2026**, zona `America/Guatemala`.
 | Escenario adicional: completar | **Aprobado**, 20.597 s |
 | Capturas móviles | Capturas auténticas en `evidencias/capturas/` y artefactos originales de CI |
 | Informe PDF | Generado y revisado visualmente: 15 páginas, cinco figuras y tabla comparativa legible |
-| Publicación de entrega | Pendiente de comprobación |
+| Publicación de entrega | Release `entrega-v1.0.0` publicada; APK y PDF descargados por URL pública con HTTP 200 y hash coincidente |
 
 Los tres escenarios se ejecutaron individualmente y como suite sobre Android. Sus resultados se comprobaron en los informes JUnit, logs y capturas reales; la compilación y el análisis lint se registran por separado.
 
@@ -225,10 +225,12 @@ Un fallo del entorno se documenta por separado de una assertion fallida. Nunca d
 - [Informe PDF final](output/pdf/informe-academico.pdf): generado y revisado visualmente, 15 páginas.
 - [Guion de exposición](GUION_EXPOSICION.md).
 - [Auditoría de la rúbrica](docs/RUBRICA.md).
-- Código publicado en GitHub; identificador final previsto: etiqueta `entrega-v1.0.0`. La etiqueta aún no está verificada.
-- APK de CI generado y descargado; ubicación de compilación reproducible `output/apk/taskflow-debug.apk`. El enlace público se añadirá después de verificar la publicación de la release.
+- [Release de entrega `entrega-v1.0.0`](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/tag/entrega-v1.0.0).
+- [Descargar APK instalable](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/taskflow-debug.apk), original de CI, 17 201 bytes; su SHA-256 figura arriba.
+- [Descargar informe PDF](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf).
+- [Commit de código probado](https://github.com/jefroMMM/Mobile-Testing-con-Maestro/commit/70268e2ca5a730477c965ef0430aacb8f87a7749).
 
-El APK se distribuye como adjunto de una GitHub Release para evitar binarios de compilación en el historial Git. Si la publicación automática no está disponible: abrir el repositorio, ir a **Releases → Draft a new release**, seleccionar o crear `entrega-v1.0.0` sobre el commit de entrega, adjuntar el APK y el PDF, publicar y verificar la descarga desde el enlace de la release.
+El APK y el PDF se distribuyen como adjuntos de la GitHub Release. Ambas descargas públicas respondieron HTTP 200 y coincidieron con los archivos locales; la comprobación se conserva en `evidencias/publicacion-verificada.json`. El APK se mantiene fuera del historial Git y conserva exactamente el hash de la compilación probada en CI.
 
 El informe se prepara como PDF y Markdown editable. No se ha acreditado acceso a la plataforma Canvas; para entregar allí se debe entrar al curso, abrir la actividad y adjuntar el PDF final junto con el enlace del repositorio y la compilación.
 
@@ -243,7 +245,7 @@ El generador produce `output/pdf/informe-academico.pdf`. Después de modificar e
 
 ## Limitaciones conocidas
 
-- La publicación final del APK y del PDF en la release sigue pendiente de confirmación.
+- La implementación, las pruebas y la publicación están completas. Solo falta que el estudiante adjunte el PDF y los enlaces en su actividad de Canvas, ya que no se dispone de acceso a esa plataforma. Puede personalizar los datos académicos de la portada si lo desea.
 - La virtualización de firmware está desactivada en el equipo detectado.
 - Las pruebas Maestro acreditadas corresponden al emulador Android 10 de CI; no se atribuyen al teléfono Android 16 conectado.
 - La instalación opcional en el Xiaomi devolvió `INSTALL_FAILED_USER_RESTRICTED`. Se continuó con el emulador aprobado; no se requiere intervención en el teléfono para esta entrega.

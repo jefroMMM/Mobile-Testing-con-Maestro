@@ -1,0 +1,18 @@
+[
+  {
+    "name": "taskflow-debug.apk",
+    "publicUrl": "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/taskflow-debug.apk",
+    "httpStatus": 200,
+    "bytes": 17201,
+    "sha256": "7250036ff691654b835440560303a54132a11f56d0ef553df9798ff4ed95f330",
+    "matchesLocalFile": true
+  },
+  {
+    "name": "informe-academico.pdf",
+    "publicUrl": "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf",
+    "httpStatus": 200,
+    "bytes": 338725,
+    "sha256": "31619f3a50c062dc395f2f4338864aed046ce4b4a0ef7bd28bf5d7703ea2c14a",
+    "matchesLocalFile": true
+  }
+]

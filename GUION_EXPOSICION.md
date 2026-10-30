@@ -70,4 +70,4 @@ En GitHub, mostrar **Actions → Android y Maestro → Run workflow**. En el REA
 
 **QUÉ MOSTRAR:**
 
-El repositorio, el informe académico y la auditoría de la rúbrica. Mostrar el APK de la release cuando su publicación esté confirmada; las evidencias de CI ya respaldan estos resultados.
+El repositorio, el informe académico y la auditoría de la rúbrica. Abrir la release `entrega-v1.0.0`, donde se encuentran el APK instalable y el informe PDF publicados. Las evidencias de CI respaldan los resultados expuestos.

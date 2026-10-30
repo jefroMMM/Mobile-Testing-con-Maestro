@@ -48,6 +48,7 @@ def inline(text):
     text = escape(text.strip()).replace('\u2011', '-').replace('\u2013','-').replace('\u2014','-')
     text = re.sub(r'\[([^]]+)\]\(([^)]+)\)', r'<link color="#087f8c" href="\2">\1</link>', text)
     text = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', text)
+    text = re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)', r'<i>\1</i>', text)
     text = re.sub(r'`([^`]+)`', r'<font face="Courier">\1</font>', text)
     text = re.sub(r'(?<!["=])(https?://[^\s<]+)', lambda m: '<link color="#087f8c" href="'+m[0]+'">'+m[0]+'</link>' if '</link>' not in text else m[0], text)
     return text
@@ -134,6 +135,8 @@ while i<len(lines):
             if title.startswith('4. Diseño'):
                 story.extend([NextPageTemplate('landscape'),PageBreak()])
                 page_mode='landscape'
+            elif title.startswith('13. Enlaces'):
+                story.append(PageBreak())
             story.append(Paragraph(inline(title),styles['SectionReport']))
     elif line.startswith('### '):
         if line[4:].startswith('Figura '): story.append(PageBreak())

@@ -1,0 +1,25 @@
+{
+  "file": "output/pdf/informe-academico.pdf",
+  "pages": 15,
+  "embeddedEvidenceImages": 5,
+  "externalLinks": 13,
+  "links": [
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/tag/entrega-v1.0.0",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/commit/70268e2ca5a730477c965ef0430aacb8f87a7749",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/taskflow-debug.apk",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/actions/runs/40982924351",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf",
+    "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/releases/download/entrega-v1.0.0/informe-academico.pdf",
+    "https://docs.maestro.dev/maestro-flows",
+    "https://docs.maestro.dev/maestro-cli",
+    "https://docs.maestro.dev/reference/commands-available/launchapp.md",
+    "https://docs.maestro.dev/reference/commands-available/stopapp.md",
+    "https://docs.maestro.dev/reference/commands-available/takescreenshot.md"
+  ],
+  "sha256": "31619f3a50c062dc395f2f4338864aed046ce4b4a0ef7bd28bf5d7703ea2c14a",
+  "reportlabVersion": "4.4.9",
+  "checkedAtGuatemala": "2026-10-29T19:17:14.694077-06:00",
+  "visualReview": "Pages rendered with Poppler and visually reviewed; table, figures, captions, links and footers are legible, without clipping."
+}
