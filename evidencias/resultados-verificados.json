@@ -1,0 +1,106 @@
+{
+  "source": "Original GitHub Actions artifact taskflow-delivery, run 40982924351",
+  "runUrl": "https://github.com/jefroMMM/Mobile-Testing-con-Maestro/actions/runs/40982924351",
+  "testedCommit": "70268e2ca5a730477c965ef0430aacb8f87a7749",
+  "executionStartedGuatemala": "2026-10-29T18:59:53-0600",
+  "device": "Android SDK built for x86_64, API 29 / Android 10, pixel_2 AVD",
+  "maestro": "2.12.0",
+  "executions": [
+    {
+      "scenario": "01",
+      "expectedCases": 1,
+      "observedCases": 1,
+      "result": "aprobado",
+      "durationSeconds": 18.55,
+      "completedCommands": 15,
+      "verifiedConditionsIncludingWaits": 6,
+      "junit": "evidencias/ci/01/results.xml",
+      "cases": [
+        {
+          "name": "01 - Crear una tarea valida",
+          "status": "SUCCESS",
+          "time": "18.535"
+        }
+      ]
+    },
+    {
+      "scenario": "02",
+      "expectedCases": 1,
+      "observedCases": 1,
+      "result": "aprobado",
+      "durationSeconds": 11.748,
+      "completedCommands": 16,
+      "verifiedConditionsIncludingWaits": 8,
+      "junit": "evidencias/ci/02/results.xml",
+      "cases": [
+        {
+          "name": "02 - Impedir una tarea sin nombre",
+          "status": "SUCCESS",
+          "time": "11.731"
+        }
+      ]
+    },
+    {
+      "scenario": "03",
+      "expectedCases": 1,
+      "observedCases": 1,
+      "result": "aprobado",
+      "durationSeconds": 21.633,
+      "completedCommands": 19,
+      "verifiedConditionsIncludingWaits": 7,
+      "junit": "evidencias/ci/03/results.xml",
+      "cases": [
+        {
+          "name": "03 - Conservar una tarea al cerrar y reabrir",
+          "status": "SUCCESS",
+          "time": "21.616"
+        }
+      ]
+    },
+    {
+      "scenario": "suite",
+      "expectedCases": 3,
+      "observedCases": 3,
+      "result": "aprobado",
+      "durationSeconds": 44.196,
+      "completedCommands": 50,
+      "verifiedConditionsIncludingWaits": 21,
+      "junit": "evidencias/ci/suite/results.xml",
+      "cases": [
+        {
+          "name": "01 - Crear una tarea valida",
+          "status": "SUCCESS",
+          "time": "17.08"
+        },
+        {
+          "name": "03 - Conservar una tarea al cerrar y reabrir",
+          "status": "SUCCESS",
+          "time": "17.086"
+        },
+        {
+          "name": "02 - Impedir una tarea sin nombre",
+          "status": "SUCCESS",
+          "time": "10.008"
+        }
+      ]
+    },
+    {
+      "scenario": "extra",
+      "expectedCases": 1,
+      "observedCases": 1,
+      "result": "aprobado",
+      "durationSeconds": 20.613,
+      "completedCommands": 21,
+      "verifiedConditionsIncludingWaits": 9,
+      "junit": "evidencias/ci/extra/results.xml",
+      "cases": [
+        {
+          "name": "04 - Completar una tarea y conservar su estado",
+          "status": "SUCCESS",
+          "time": "20.597"
+        }
+      ]
+    }
+  ],
+  "apkSha256": "7250036ff691654b835440560303a54132a11f56d0ef553df9798ff4ed95f330"
+}

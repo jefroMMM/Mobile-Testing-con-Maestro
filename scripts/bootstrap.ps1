@@ -1,3 +1,4 @@
+#Requires -Version 7.0
 param([switch]$WithEmulator)
 $ErrorActionPreference = 'Stop'
 $ToolRoot = Join-Path $env:LOCALAPPDATA 'MaestroAssignment'
@@ -33,4 +34,3 @@ if ($LASTEXITCODE -ne 0) { throw 'Falló la instalación de paquetes Android.' }
 & maestro --version
 if ($WithEmulator) { & "$PSScriptRoot/create-emulator.ps1" }
 Write-Output 'Herramientas listas. Ejecuta scripts/build.ps1.'
-

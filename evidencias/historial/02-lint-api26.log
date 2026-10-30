@@ -1,0 +1,182 @@
+﻿2026-10-30T00:55:41.8766982Z ##[group]Run mkdir -p evidencias/ci/build output/apk
+2026-10-30T00:55:41.8768340Z [36;1mmkdir -p evidencias/ci/build output/apk[0m
+2026-10-30T00:55:41.8769209Z [36;1mchmod +x gradlew scripts/ci-tests.sh[0m
+2026-10-30T00:55:41.8770499Z [36;1m./gradlew --no-daemon --console=plain assembleDebug lintDebug 2>&1 | tee evidencias/ci/build/gradle.log[0m
+2026-10-30T00:55:41.8772076Z [36;1mcp app/build/outputs/apk/debug/app-debug.apk output/apk/taskflow-debug.apk[0m
+2026-10-30T00:55:41.8773450Z [36;1msha256sum output/apk/taskflow-debug.apk > evidencias/ci/build/apk-sha256.txt[0m
+2026-10-30T00:55:41.8774631Z [36;1mjava -version 2> evidencias/ci/java.txt[0m
+2026-10-30T00:55:41.8775567Z [36;1m./gradlew --version > evidencias/ci/gradle-version.txt[0m
+2026-10-30T00:55:41.8825722Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2026-10-30T00:55:41.8826656Z env:
+2026-10-30T00:55:41.8827453Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-10-30T00:55:41.8828923Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-10-30T00:55:41.8829983Z ##[endgroup]
+2026-10-30T00:55:44.1429557Z Downloading https://services.gradle.org/distributions/gradle-8.9-bin.zip
+2026-10-30T00:55:47.7404534Z ............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+2026-10-30T00:55:49.1834293Z 
+2026-10-30T00:55:49.1835983Z Welcome to Gradle 8.9!
+2026-10-30T00:55:49.1858769Z 
+2026-10-30T00:55:49.1868938Z Here are the highlights of this release:
+2026-10-30T00:55:49.1869651Z  - Enhanced Error and Warning Messages
+2026-10-30T00:55:49.1870020Z  - IDE Integration Improvements
+2026-10-30T00:55:49.1870659Z  - Daemon JVM Information
+2026-10-30T00:55:49.1871580Z 
+2026-10-30T00:55:49.1871846Z For more details see https://docs.gradle.org/8.9/release-notes.html
+2026-10-30T00:55:49.1872128Z 
+2026-10-30T00:55:49.4826577Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.9/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+2026-10-30T00:55:50.8823328Z Daemon will be stopped at the end of the build 
+2026-10-30T00:56:15.5873016Z > Task :app:preBuild UP-TO-DATE
+2026-10-30T00:56:15.5874740Z > Task :app:preDebugBuild UP-TO-DATE
+2026-10-30T00:56:15.5899329Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+2026-10-30T00:56:15.6839066Z > Task :app:javaPreCompileDebug
+2026-10-30T00:56:15.6876186Z > Task :app:generateDebugResValues
+2026-10-30T00:56:15.6892009Z > Task :app:checkDebugAarMetadata
+2026-10-30T00:56:15.6916715Z > Task :app:mapDebugSourceSetPaths
+2026-10-30T00:56:15.6917501Z > Task :app:generateDebugResources
+2026-10-30T00:56:15.8822919Z > Task :app:packageDebugResources
+2026-10-30T00:56:16.7822905Z > Task :app:mergeDebugResources
+2026-10-30T00:56:17.0827942Z > Task :app:createDebugCompatibleScreenManifests
+2026-10-30T00:56:17.0828526Z > Task :app:extractDeepLinksDebug
+2026-10-30T00:56:17.0829021Z > Task :app:parseDebugLocalResources
+2026-10-30T00:56:17.1823975Z > Task :app:processDebugMainManifest
+2026-10-30T00:56:17.3828870Z > Task :app:processDebugManifest
+2026-10-30T00:56:17.3833025Z > Task :app:mergeDebugShaders
+2026-10-30T00:56:17.3860450Z > Task :app:compileDebugShaders NO-SOURCE
+2026-10-30T00:56:17.3870246Z > Task :app:generateDebugAssets UP-TO-DATE
+2026-10-30T00:56:17.3881465Z > Task :app:mergeDebugAssets
+2026-10-30T00:56:17.3888357Z > Task :app:processDebugManifestForPackage
+2026-10-30T00:56:17.8879109Z > Task :app:compressDebugAssets
+2026-10-30T00:56:17.8929021Z > Task :app:desugarDebugFileDependencies
+2026-10-30T00:56:17.8929927Z > Task :app:processDebugJavaRes NO-SOURCE
+2026-10-30T00:56:17.8930687Z > Task :app:checkDebugDuplicateClasses
+2026-10-30T00:56:17.8958570Z > Task :app:mergeDebugJniLibFolders
+2026-10-30T00:56:17.8973742Z > Task :app:mergeExtDexDebug
+2026-10-30T00:56:17.8988939Z > Task :app:mergeLibDexDebug
+2026-10-30T00:56:17.9822740Z > Task :app:mergeDebugNativeLibs NO-SOURCE
+2026-10-30T00:56:17.9823784Z > Task :app:stripDebugDebugSymbols NO-SOURCE
+2026-10-30T00:56:17.9824155Z > Task :app:mergeDebugJavaResource
+2026-10-30T00:56:17.9824550Z > Task :app:processDebugResources
+2026-10-30T00:56:19.0823766Z > Task :app:validateSigningDebug
+2026-10-30T00:56:22.0845201Z 
+2026-10-30T00:56:22.0859208Z > Task :app:compileDebugJavaWithJavac
+2026-10-30T00:56:22.0860754Z Note: /home/runner/work/Mobile-Testing-con-Maestro/Mobile-Testing-con-Maestro/app/src/main/java/dev/maestro/taskflow/MainActivity.java uses or overrides a deprecated API.
+2026-10-30T00:56:22.0864913Z Note: Recompile with -Xlint:deprecation for details.
+2026-10-30T00:56:24.0822017Z 
+2026-10-30T00:56:24.0856268Z > Task :app:dexBuilderDebug
+2026-10-30T00:56:24.0878847Z > Task :app:mergeDebugGlobalSynthetics
+2026-10-30T00:56:24.0918478Z > Task :app:writeDebugAppMetadata
+2026-10-30T00:56:24.0920634Z > Task :app:writeDebugSigningConfigVersions
+2026-10-30T00:56:24.1823635Z > Task :app:preDebugAndroidTestBuild SKIPPED
+2026-10-30T00:56:24.1825535Z > Task :app:generateDebugAndroidTestResValues
+2026-10-30T00:56:24.1826120Z > Task :app:extractProguardFiles
+2026-10-30T00:56:24.1826636Z > Task :app:bundleDebugClassesToCompileJar
+2026-10-30T00:56:24.1827189Z > Task :app:mergeProjectDexDebug
+2026-10-30T00:56:24.5822649Z > Task :app:generateDebugLintReportModel
+2026-10-30T00:56:24.5830755Z > Task :app:generateDebugAndroidTestLintModel
+2026-10-30T00:56:24.5831477Z > Task :app:preDebugUnitTestBuild UP-TO-DATE
+2026-10-30T00:56:24.5831982Z > Task :app:generateDebugUnitTestLintModel
+2026-10-30T00:56:28.7822848Z > Task :app:packageDebug
+2026-10-30T00:56:28.7823349Z > Task :app:createDebugApkListingFileRedirect
+2026-10-30T00:56:28.7823752Z > Task :app:assembleDebug
+2026-10-30T00:56:33.5863028Z > Task :app:lintAnalyzeDebugAndroidTest
+2026-10-30T00:56:33.7831696Z > Task :app:lintAnalyzeDebugUnitTest
+2026-10-30T00:56:35.6852925Z > Task :app:lintAnalyzeDebug
+2026-10-30T00:56:35.8821578Z 
+2026-10-30T00:56:35.8823363Z > Task :app:lintReportDebug
+2026-10-30T00:56:35.8826219Z Wrote HTML report to file:///home/runner/work/Mobile-Testing-con-Maestro/Mobile-Testing-con-Maestro/app/build/reports/lint-results-debug.html
+2026-10-30T00:56:35.8827275Z 
+2026-10-30T00:56:35.8827542Z > Task :app:lintDebug FAILED
+2026-10-30T00:56:35.8828486Z Lint found 1 errors, 7 warnings. First failure:
+2026-10-30T00:56:35.8828781Z 
+2026-10-30T00:56:35.8829462Z /home/runner/work/Mobile-Testing-con-Maestro/Mobile-Testing-con-Maestro/app/src/main/res/values/styles.xml:9: Error: android:windowLightNavigationBar requires API level 27 (current min is 26) [NewApi]
+2026-10-30T00:56:35.8830432Z         <item name="android:windowLightNavigationBar">true</item>
+2026-10-30T00:56:35.8830852Z               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-30T00:56:35.8831138Z 
+2026-10-30T00:56:35.8831359Z    Explanation for issues of type "NewApi":
+2026-10-30T00:56:35.8831836Z    This check scans through all the Android API calls in the application and
+2026-10-30T00:56:35.8832387Z    warns about any calls that are not available on all versions targeted by
+2026-10-30T00:56:35.8832994Z    this application (according to its minimum SDK attribute in the manifest).
+2026-10-30T00:56:35.8833420Z 
+2026-10-30T00:56:35.8833735Z    If you really want to use this API and don't need to support older devices
+2026-10-30T00:56:35.8834396Z    just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+2026-10-30T00:56:35.8834921Z    files.
+2026-10-30T00:56:35.8835158Z 
+2026-10-30T00:56:35.8835475Z    If your code is deliberately accessing newer APIs, and you have ensured
+2026-10-30T00:56:35.8836105Z    (e.g. with conditional execution) that this code will only ever be called
+2026-10-30T00:56:35.8836780Z    on a supported platform, then you can annotate your class or method with
+2026-10-30T00:56:35.8837442Z    the @TargetApi annotation specifying the local minimum SDK to apply, such
+2026-10-30T00:56:35.8838323Z    as @TargetApi(11), such that this check considers 11 rather than your
+2026-10-30T00:56:35.8839271Z    manifest file's minimum SDK as the required API level.
+2026-10-30T00:56:35.8839640Z 
+2026-10-30T00:56:35.8839985Z    If you are deliberately setting android: attributes in style definitions,
+2026-10-30T00:56:35.8840640Z    make sure you place this in a values-vNN folder in order to avoid running
+2026-10-30T00:56:35.8841294Z    into runtime conflicts on certain devices where manufacturers have added
+2026-10-30T00:56:35.8841966Z    custom attributes whose ids conflict with the new ones on later platforms.
+2026-10-30T00:56:35.8842415Z 
+2026-10-30T00:56:35.8842739Z    Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+2026-10-30T00:56:35.8843387Z    the element will only be inflated in an adequate context.
+2026-10-30T00:56:35.8843758Z 
+2026-10-30T00:56:35.8843877Z 
+2026-10-30T00:56:35.8844103Z The full lint text report is located at:
+2026-10-30T00:56:35.8845071Z   /home/runner/work/Mobile-Testing-con-Maestro/Mobile-Testing-con-Maestro/app/build/intermediates/lint_intermediate_text_report/debug/lintReportDebug/lint-results-debug.txt
+2026-10-30T00:56:35.9821259Z 
+2026-10-30T00:56:35.9899104Z FAILURE: Build failed with an exception.
+2026-10-30T00:56:35.9908074Z 
+2026-10-30T00:56:35.9919154Z * What went wrong:
+2026-10-30T00:56:35.9919813Z Execution failed for task ':app:lintDebug'.
+2026-10-30T00:56:35.9920368Z > Lint found errors in the project; aborting build.
+2026-10-30T00:56:35.9920776Z   
+2026-10-30T00:56:35.9921225Z   Fix the issues identified by lint, or create a baseline to see only new errors.
+2026-10-30T00:56:35.9922059Z   To create a baseline, run `gradlew updateLintBaseline` after adding the following to the module's build.gradle file:
+2026-10-30T00:56:35.9923676Z   ```
+2026-10-30T00:56:35.9924018Z   android {
+2026-10-30T00:56:35.9924338Z       lint {
+2026-10-30T00:56:35.9924714Z           baseline = file("lint-baseline.xml")
+2026-10-30T00:56:35.9925155Z       }
+2026-10-30T00:56:35.9925464Z   }
+2026-10-30T00:56:35.9925760Z   ```
+2026-10-30T00:56:35.9926236Z   For more details, see https://developer.android.com/studio/write/lint#snapshot
+2026-10-30T00:56:35.9927334Z   
+2026-10-30T00:56:35.9935556Z   Lint found 1 errors, 7 warnings. First failure:
+2026-10-30T00:56:35.9936101Z   
+2026-10-30T00:56:35.9937069Z   /home/runner/work/Mobile-Testing-con-Maestro/Mobile-Testing-con-Maestro/app/src/main/res/values/styles.xml:9: Error: android:windowLightNavigationBar requires API level 27 (current min is 26) [NewApi]
+2026-10-30T00:56:35.9938322Z           <item name="android:windowLightNavigationBar">true</item>
+2026-10-30T00:56:35.9938853Z                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2026-10-30T00:56:35.9939268Z   
+2026-10-30T00:56:35.9939631Z      Explanation for issues of type "NewApi":
+2026-10-30T00:56:35.9940204Z      This check scans through all the Android API calls in the application and
+2026-10-30T00:56:35.9940857Z      warns about any calls that are not available on all versions targeted by
+2026-10-30T00:56:35.9941481Z      this application (according to its minimum SDK attribute in the manifest).
+2026-10-30T00:56:35.9942039Z   
+2026-10-30T00:56:35.9942459Z      If you really want to use this API and don't need to support older devices
+2026-10-30T00:56:35.9943084Z      just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+2026-10-30T00:56:35.9943608Z      files.
+2026-10-30T00:56:35.9943920Z   
+2026-10-30T00:56:35.9944351Z      If your code is deliberately accessing newer APIs, and you have ensured
+2026-10-30T00:56:35.9944996Z      (e.g. with conditional execution) that this code will only ever be called
+2026-10-30T00:56:35.9945649Z      on a supported platform, then you can annotate your class or method with
+2026-10-30T00:56:35.9946316Z      the @TargetApi annotation specifying the local minimum SDK to apply, such
+2026-10-30T00:56:35.9946947Z      as @TargetApi(11), such that this check considers 11 rather than your
+2026-10-30T00:56:35.9947514Z      manifest file's minimum SDK as the required API level.
+2026-10-30T00:56:35.9948516Z   
+2026-10-30T00:56:35.9954429Z      If you are deliberately setting android: attributes in style definitions,
+2026-10-30T00:56:35.9955208Z      make sure you place this in a values-vNN folder in order to avoid running
+2026-10-30T00:56:35.9955857Z      into runtime conflicts on certain devices where manufacturers have added
+2026-10-30T00:56:35.9956507Z      custom attributes whose ids conflict with the new ones on later platforms.
+2026-10-30T00:56:35.9957076Z   
+2026-10-30T00:56:35.9957538Z      Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+2026-10-30T00:56:35.9958412Z      the element will only be inflated in an adequate context.
+2026-10-30T00:56:35.9958896Z   
+2026-10-30T00:56:35.9959196Z   
+2026-10-30T00:56:35.9959537Z   The full lint text report is located at:
+2026-10-30T00:56:35.9960516Z     /home/runner/work/Mobile-Testing-con-Maestro/Mobile-Testing-con-Maestro/app/build/intermediates/lint_intermediate_text_report/debug/lintReportDebug/lint-results-debug.txt
+2026-10-30T00:56:35.9961410Z 
+2026-10-30T00:56:35.9961610Z * Try:
+2026-10-30T00:56:35.9962012Z > Run with --stacktrace option to get the stack trace.
+2026-10-30T00:56:35.9962558Z > Run with --info or --debug option to get more log output.
+2026-10-30T00:56:35.9963203Z > Run with --scan to get full insights.
+2026-10-30T00:56:35.9966392Z > Get more help at https://help.gradle.org.
+2026-10-30T00:56:35.9966773Z 
+2026-10-30T00:56:35.9966991Z BUILD FAILED in 52s
+2026-10-30T00:56:35.9967364Z 43 actionable tasks: 43 executed
+2026-10-30T00:56:36.1426113Z ##[error]Process completed with exit code 1.

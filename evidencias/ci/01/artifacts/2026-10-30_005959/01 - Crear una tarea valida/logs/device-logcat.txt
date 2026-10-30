@@ -1,0 +1,999 @@
+--------- beginning of system
+10-30 01:00:04.039 I/PackageManager( 1914): Un-granting permission android.permission.GLOBAL_SEARCH from package com.android.quicksearchbox (protectionLevel=18 flags=0x3088be45)
+10-30 01:00:04.039 I/PackageManager( 1914): Un-granting permission android.permission.BIND_WALLPAPER from package com.android.camera2 (protectionLevel=18 flags=0x20d8bc45)
+10-30 01:00:04.040 I/PackageManager( 1914): Un-granting permission android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS from package com.android.captiveportallogin (protectionLevel=18 flags=0x38c8be45)
+10-30 01:00:04.040 I/PackageManager( 1914): Un-granting permission android.permission.NETWORK_BYPASS_PRIVATE_DNS from package com.android.captiveportallogin (protectionLevel=2 flags=0x38c8be45)
+10-30 01:00:04.040 I/PackageManager( 1914): Un-granting permission android.permission.ACCESS_MOCK_LOCATION from package dev.mobile.maestro (protectionLevel=2 flags=0x2808be46)
+10-30 01:00:04.040 I/PackageManager( 1914): Un-granting permission android.permission.WRITE_SETTINGS from package dev.mobile.maestro (protectionLevel=1218 flags=0x2808be46)
+10-30 01:00:04.040 I/PackageManager( 1914): Un-granting permission android.permission.CHANGE_CONFIGURATION from package dev.mobile.maestro (protectionLevel=50 flags=0x2808be46)
+10-30 01:00:04.053 D/PackageManager( 1914): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+10-30 01:00:04.053 D/PackageManager( 1914): Clear ephemeral installer activity
+10-30 01:00:04.055 V/BackupManagerService( 1914): restoreAtInstall pkg=dev.mobile.maestro token=2 restoreSet=0
+10-30 01:00:04.055 V/BackupManagerService( 1914): Finishing install immediately
+10-30 01:00:04.056 W/PackageManager( 1914): Cannot whitelist unknown permission: android.permission.QUERY_ALL_PACKAGES
+--------- beginning of main
+10-30 01:00:04.057 I/netd    ( 1659): trafficSetNetPermForUids(4, [10117]) <0.03ms>
+10-30 01:00:04.068 E/        ( 1793): Couldn't opendir /data/app/vmdl994643931.tmp: No such file or directory
+10-30 01:00:04.068 E/installd( 1793): Failed to delete /data/app/vmdl994643931.tmp: No such file or directory
+10-30 01:00:04.074 I/RoleManagerService( 1914): Granting default permissions...
+10-30 01:00:04.075 W/BroadcastQueue( 1914): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dev.mobile.maestro flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+10-30 01:00:04.075 W/BroadcastQueue( 1914): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dev.mobile.maestro flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+10-30 01:00:04.075 W/BroadcastQueue( 1914): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dev.mobile.maestro flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+10-30 01:00:04.079 I/InputReader( 1914): Reconfiguring input devices.  changes=0x00000010
+10-30 01:00:04.084 W/VoiceInteractionManagerService( 1914): no available voice recognition services found for user 0
+10-30 01:00:04.116 I/Telecom ( 1914): DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: CM.CCCR->CM.UECNT->CM.CCCR->CM.UECNT@ADs
+10-30 01:00:04.117 V/BackupManagerConstants( 1914): getFullBackupIntervalMilliseconds(...) returns 86400000
+10-30 01:00:04.117 V/BackupManagerConstants( 1914): getFullBackupRequiredNetworkType(...) returns 2
+10-30 01:00:04.117 V/BackupManagerConstants( 1914): getFullBackupRequireCharging(...) returns true
+10-30 01:00:04.149 D/CarrierSvcBindHelper( 2316): No carrier app for: 0
+10-30 01:00:04.161 D/CarrierConfigLoader( 2316): mHandler: 9 phoneId: 0
+10-30 01:00:04.166 I/system_server( 1914): Background concurrent copying GC freed 65815(2785KB) AllocSpace objects, 20(784KB) LOS objects, 40% free, 9012KB/14MB, paused 424us total 108.831ms
+10-30 01:00:04.231 W/PackageParser( 1914): Unknown element under <manifest>: queries at /data/app/vmdl1115399967.tmp/base.apk Binary XML file line #23
+10-30 01:00:04.231 W/PackageParser( 1914): No actions in intent filter at /data/app/vmdl1115399967.tmp/base.apk Binary XML file line #42
+10-30 01:00:04.231 W/PackageParser( 1914): No actions in intent filter at /data/app/vmdl1115399967.tmp/base.apk Binary XML file line #50
+10-30 01:00:04.231 W/PackageParser( 1914): No actions in intent filter at /data/app/vmdl1115399967.tmp/base.apk Binary XML file line #58
+10-30 01:00:04.232 I/PackageManager( 1914): Un-granting permission android.permission.GLOBAL_SEARCH from package com.android.quicksearchbox (protectionLevel=18 flags=0x3088be45)
+10-30 01:00:04.232 I/PackageManager( 1914): Un-granting permission android.permission.ACCESS_MOCK_LOCATION from package dev.mobile.maestro (protectionLevel=2 flags=0x2808be46)
+10-30 01:00:04.232 I/PackageManager( 1914): Un-granting permission android.permission.WRITE_SETTINGS from package dev.mobile.maestro (protectionLevel=1218 flags=0x2808be46)
+10-30 01:00:04.232 I/PackageManager( 1914): Un-granting permission android.permission.CHANGE_CONFIGURATION from package dev.mobile.maestro (protectionLevel=50 flags=0x2808be46)
+10-30 01:00:04.232 I/PackageManager( 1914): Un-granting permission android.permission.BIND_WALLPAPER from package com.android.camera2 (protectionLevel=18 flags=0x20d8bc45)
+10-30 01:00:04.234 I/PackageManager( 1914): Un-granting permission android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS from package com.android.captiveportallogin (protectionLevel=18 flags=0x38c8be45)
+10-30 01:00:04.234 I/PackageManager( 1914): Un-granting permission android.permission.NETWORK_BYPASS_PRIVATE_DNS from package com.android.captiveportallogin (protectionLevel=2 flags=0x38c8be45)
+10-30 01:00:04.234 I/PackageManager( 1914): Un-granting permission android.permission.ACCESS_MOCK_LOCATION from package dev.mobile.maestro.test (protectionLevel=2 flags=0x2008be46)
+10-30 01:00:04.245 D/PackageManager( 1914): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+10-30 01:00:04.245 D/PackageManager( 1914): Clear ephemeral installer activity
+10-30 01:00:04.247 V/BackupManagerService( 1914): restoreAtInstall pkg=dev.mobile.maestro.test token=3 restoreSet=0
+10-30 01:00:04.247 V/BackupManagerService( 1914): Finishing install immediately
+10-30 01:00:04.248 W/PackageManager( 1914): Cannot whitelist unknown permission: android.permission.QUERY_ALL_PACKAGES
+10-30 01:00:04.249 I/netd    ( 1659): trafficSetNetPermForUids(0, [10118]) <0.02ms>
+10-30 01:00:04.252 E/        ( 1793): Couldn't opendir /data/app/vmdl1115399967.tmp: No such file or directory
+10-30 01:00:04.252 E/installd( 1793): Failed to delete /data/app/vmdl1115399967.tmp: No such file or directory
+10-30 01:00:04.282 W/BroadcastQueue( 1914): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dev.mobile.maestro.test flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+10-30 01:00:04.283 I/InputReader( 1914): Reconfiguring input devices.  changes=0x00000010
+10-30 01:00:04.284 I/RoleManagerService( 1914): Granting default permissions...
+10-30 01:00:04.286 W/BroadcastQueue( 1914): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dev.mobile.maestro.test flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+10-30 01:00:04.286 W/BroadcastQueue( 1914): Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:dev.mobile.maestro.test flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+10-30 01:00:04.312 W/VoiceInteractionManagerService( 1914): no available voice recognition services found for user 0
+10-30 01:00:04.313 D/CarrierSvcBindHelper( 2316): No carrier app for: 0
+10-30 01:00:04.317 D/CarrierConfigLoader( 2316): mHandler: 9 phoneId: 0
+10-30 01:00:04.356 I/Telecom ( 1914): DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: CM.CCCR->CM.UECNT->CM.CCCR->CM.UECNT@ADs
+10-30 01:00:04.357 V/BackupManagerConstants( 1914): getFullBackupIntervalMilliseconds(...) returns 86400000
+10-30 01:00:04.357 V/BackupManagerConstants( 1914): getFullBackupRequiredNetworkType(...) returns 2
+10-30 01:00:04.357 V/BackupManagerConstants( 1914): getFullBackupRequireCharging(...) returns true
+10-30 01:00:04.472 D/AndroidRuntime( 3469): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 01:00:04.475 E/libc    ( 3469): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+10-30 01:00:04.475 I/AndroidRuntime( 3469): Using default boot image
+10-30 01:00:04.476 E/libc    ( 3469): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+10-30 01:00:04.476 I/AndroidRuntime( 3469): Leaving lock profiling enabled
+10-30 01:00:04.476 E/libc    ( 3469): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+10-30 01:00:04.460 W/app_process( 3469): type=1400 audit(0.0:22): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6750 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+10-30 01:00:04.460 I/chatty  ( 3469): uid=2000(shell) main identical 1 line
+10-30 01:00:04.460 W/app_process( 3469): type=1400 audit(0.0:24): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6750 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+10-30 01:00:04.494 I/app_process( 3469): Core platform API reporting enabled, enforcing=false
+10-30 01:00:04.531 I/RoleUserState( 1914): Wrote roles.xml successfully
+10-30 01:00:04.576 D/ICU     ( 3469): Time zone APEX file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-30 01:00:04.580 W/app_process( 3469): Unexpected CPU variant for X86 using defaults: x86_64
+10-30 01:00:04.583 I/app_process( 3469): The ClassLoaderContext is a special shared library.
+10-30 01:00:04.589 W/app_process( 3469): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+10-30 01:00:04.591 D/AndroidRuntime( 3469): Calling main entry com.android.commands.am.Am
+10-30 01:00:04.594 I/ActivityManager( 1914): Force stopping dev.mobile.maestro appid=10117 user=0: start instr
+10-30 01:00:04.601 D/Zygote  ( 1660): Forked child process 3480
+10-30 01:00:04.603 I/.mobile.maestr( 3480): Late-enabling -Xcheck:jni
+10-30 01:00:04.607 I/ActivityManager( 1914): Start proc 3480:dev.mobile.maestro/u0a117 for added application dev.mobile.maestro
+10-30 01:00:04.609 E/.mobile.maestr( 3480): Unknown bits set in runtime_flags: 0x8000
+10-30 01:00:04.609 W/.mobile.maestr( 3480): Unexpected CPU variant for X86 using defaults: x86_64
+10-30 01:00:04.634 I/.mobile.maestr( 3480): The ClassLoaderContext is a special shared library.
+10-30 01:00:04.935 I/chatty  ( 3480): uid=10117(dev.mobile.maestro) identical 2 lines
+10-30 01:00:04.935 I/.mobile.maestr( 3480): The ClassLoaderContext is a special shared library.
+10-30 01:00:05.242 W/.mobile.maestr( 3480): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+10-30 01:00:05.242 W/.mobile.maestr( 3480): Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+10-30 01:00:05.247 I/AndroidJUnitRunner( 3480): newApplication android.app.Application
+10-30 01:00:05.252 I/AndroidJUnitRunner( 3480): onCreate Bundle[mParcelledData.dataSize=204]
+10-30 01:00:05.254 D/AndroidJUnitRunner( 3480): Use the raw file system for managing file I/O.
+10-30 01:00:05.264 V/TestEventClient( 3480): No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+10-30 01:00:05.265 D/AndroidJUnitRunner( 3480): onStart is called.
+10-30 01:00:05.296 I/TestRunner( 3480): run started: 1 tests
+10-30 01:00:05.298 I/TestRunner( 3480): started: grpcServer(dev.mobile.maestro.MaestroDriverService)
+10-30 01:00:05.304 E/adbd    ( 1783): failed to connect to socket 'tcp:42843': Connection refused
+10-30 01:00:05.308 I/UiDevice( 3480): Creating a new instance, old instance exists: false
+10-30 01:00:05.314 V/SettingsProvider( 1914): Notifying for 0: content://settings/secure/accessibility_enabled
+10-30 01:00:05.328 D/UiDevice( 3480): Setting accessibility service flags: 65618
+10-30 01:00:05.386 I/System.out( 3480): Server running on port [ 42843 ]
+10-30 01:00:05.412 E/adbd    ( 1783): failed to connect to socket 'tcp:42843': Connection refused
+10-30 01:00:05.421 W/System.err( 3480): SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+10-30 01:00:05.421 W/System.err( 3480): SLF4J: Defaulting to no-operation (NOP) logger implementation
+10-30 01:00:05.421 W/System.err( 3480): SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+10-30 01:00:05.435 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->arrayIndexScale(Ljava/lang/Class;)I (greylist, linking, allowed)
+10-30 01:00:05.435 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->allocateMemory(J)J (greylist, linking, allowed)
+10-30 01:00:05.435 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->freeMemory(J)V (greylist, linking, allowed)
+10-30 01:00:05.435 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->arrayBaseOffset(Ljava/lang/Class;)I (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.435 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->addressSize()I (greylist, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->copyMemory(JJJ)V (greylist, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getChar(Ljava/lang/Object;J)C (greylist, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getByte(Ljava/lang/Object;J)B (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getByte(J)B (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(J)I (greylist, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getIntVolatile(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:05.436 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getLong(J)J (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.437 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:05.437 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getShort(J)S (greylist, linking, allowed)
+10-30 01:00:05.437 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getShort(Ljava/lang/Object;J)S (greylist, linking, allowed)
+10-30 01:00:05.437 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->objectFieldOffset(Ljava/lang/reflect/Field;)J (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.437 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putByte(JB)V (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putByte(Ljava/lang/Object;JB)V (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(JI)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putOrderedInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(JJ)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putShort(JS)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putShort(Ljava/lang/Object;JS)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->storeFence()V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putIntVolatile(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.438 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->setMemory(JJB)V (greylist, linking, allowed)
+10-30 01:00:05.439 W/.mobile.maestr( 3480): Accessing hidden field Lsun/misc/Unsafe;->theUnsafe:Lsun/misc/Unsafe; (greylist, reflection, allowed)
+10-30 01:00:05.439 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/VM;->maxDirectMemory()J (greylist, reflection, allowed)
+10-30 01:00:05.440 I/PlatformDependent( 3480): Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+10-30 01:00:05.467 E/.mobile.maestr( 3480): No implementation found for int io.grpc.netty.shaded.io.netty.channel.epoll.Native.offsetofEpollData() (tried Java_io_grpc_netty_shaded_io_netty_channel_epoll_Native_offsetofEpollData and Java_io_grpc_netty_shaded_io_netty_channel_epoll_Native_offsetofEpollData__)
+10-30 01:00:05.486 W/.mobile.maestr( 3480): Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;-><init>()V (greylist-max-o, linking, denied)
+10-30 01:00:05.486 D/Maestro ( 3480): Started listening to accessibility events
+10-30 01:00:05.488 I/Maestro ( 3480): injectInputEvent(event, sync, waitForAnimations) unavailable, using UiAutomator: java.lang.NoSuchMethodException: android.app.UiAutomation.injectInputEvent [class android.view.InputEvent, boolean, boolean]
+10-30 01:00:05.514 E/adbd    ( 1783): failed to connect to socket 'tcp:42843': Connection refused
+10-30 01:00:05.566 W/.mobile.maestr( 3480): Accessing hidden field Lsun/nio/ch/SelectorImpl;->selectedKeys:Ljava/util/Set; (greylist, reflection, allowed)
+10-30 01:00:05.566 W/.mobile.maestr( 3480): Accessing hidden field Lsun/nio/ch/SelectorImpl;->publicSelectedKeys:Ljava/util/Set; (greylist, reflection, allowed)
+10-30 01:00:05.617 E/adbd    ( 1783): failed to connect to socket 'tcp:42843': Connection refused
+10-30 01:00:05.610 W/grpc-nio-boss-E( 3480): type=1400 audit(0.0:25): avc: denied { read } for name="somaxconn" dev="proc" ino=27045 scontext=u:r:untrusted_app:s0:c117,c256,c512,c768 tcontext=u:object_r:proc_net:s0 tclass=file permissive=0 app=dev.mobile.maestro
+10-30 01:00:05.906 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getUnsafe()Lsun/misc/Unsafe; (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.906 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.911 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+10-30 01:00:05.911 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:05.934 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:05.934 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:05.934 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.934 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.935 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.936 I/chatty  ( 3480): uid=10117(dev.mobile.maestro) grpc-default-ex identical 1 line
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.936 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+10-30 01:00:05.937 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.937 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:05.937 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.938 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:05.938 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.939 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:05.939 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+10-30 01:00:05.939 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+10-30 01:00:05.939 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.939 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+10-30 01:00:05.939 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->allocateInstance(Ljava/lang/Class;)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:05.941 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->peekLong(JZ)J (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->pokeLong(JJZ)V (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->pokeInt(JIZ)V (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->peekInt(JZ)I (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->pokeByte(JB)V (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->peekByte(J)B (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->pokeByteArray(J[BII)V (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Llibcore/io/Memory;->peekByteArray(J[BII)V (greylist, reflection, allowed)
+10-30 01:00:05.942 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, linking, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, reflection, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, reflection, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, reflection, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, reflection, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, reflection, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, reflection, allowed)
+10-30 01:00:05.943 W/.mobile.maestr( 3480): Accessing hidden field Ljava/nio/Buffer;->address:J (greylist, reflection, allowed)
+10-30 01:00:05.950 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:06.114 I/ActivityManager( 1914): Force stopping dev.maestro.taskflow appid=10116 user=0: clear data
+10-30 01:00:06.115 I/ActivityManager( 1914): Force stopping dev.maestro.taskflow appid=10116 user=-1: clearApplicationUserData
+10-30 01:00:06.115 I/ConditionProviders( 1914): Disallowing condition provider dev.maestro.taskflow
+10-30 01:00:05.959 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:06.116 I/keystore( 1794): clear_uid 10116
+10-30 01:00:06.132 D/Zygote  ( 1660): Forked child process 3524
+10-30 01:00:06.133 I/ActivityManager( 1914): Start proc 3524:com.android.documentsui/u0a58 for broadcast {com.android.documentsui/com.android.documentsui.PackageReceiver}
+10-30 01:00:06.136 D/CarrierSvcBindHelper( 2316): No carrier app for: 0
+10-30 01:00:06.147 W/oid.documentsu( 3524): Unexpected CPU variant for X86 using defaults: x86_64
+10-30 01:00:06.165 D/ApplicationLoaders( 3524): Returning zygote-cached class loader: /system/framework/android.hidl.base-V1.0-java.jar
+10-30 01:00:06.165 D/ApplicationLoaders( 3524): Returning zygote-cached class loader: /system/framework/android.hidl.manager-V1.0-java.jar
+10-30 01:00:06.165 D/ApplicationLoaders( 3524): Returning zygote-cached class loader: /system/framework/android.hidl.base-V1.0-java.jar
+10-30 01:00:06.168 I/oid.documentsu( 3524): The ClassLoaderContext is a special shared library.
+10-30 01:00:06.201 D/DocumentsApplication( 3524): OverlayManager.setEnabled() result: true
+10-30 01:00:06.218 I/MediaProvider( 2677): Begin Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:dev.maestro.taskflow flg=0x1000010 cmp=com.android.providers.media/.MediaService (has extras) }
+10-30 01:00:06.218 I/MediaProvider( 2677): End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package:dev.maestro.taskflow flg=0x1000010 cmp=com.android.providers.media/.MediaService (has extras) }
+10-30 01:00:06.233 I/ActivityManager( 1914): Force stopping dev.maestro.taskflow appid=10116 user=0: from pid 3559
+10-30 01:00:06.237 D/CarrierSvcBindHelper( 2316): No carrier app for: 0
+10-30 01:00:06.261 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+10-30 01:00:06.268 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:06.270 I/ActivityTaskManager( 1914): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=dev.maestro.taskflow cmp=dev.maestro.taskflow/.MainActivity} from uid 10117
+10-30 01:00:06.277 E/system_server( 1914): Invalid ID 0x00000000.
+10-30 01:00:06.279 W/InputReader( 1914): Device has associated, but no associated display id.
+10-30 01:00:06.279 I/chatty  ( 1914): uid=1000(system) Binder:1914_E identical 8 lines
+10-30 01:00:06.279 W/InputReader( 1914): Device has associated, but no associated display id.
+10-30 01:00:06.293 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8298496
+10-30 01:00:06.354 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:06.338 D/Zygote  ( 1660): Forked child process 3567
+10-30 01:00:06.369 W/ActivityManager( 1914): Slow operation: 78ms so far, now at startProcess: returned from zygote!
+10-30 01:00:06.370 W/ActivityManager( 1914): Slow operation: 79ms so far, now at startProcess: done updating battery stats
+10-30 01:00:06.370 W/ActivityManager( 1914): Slow operation: 79ms so far, now at startProcess: building log message
+10-30 01:00:06.370 I/ActivityManager( 1914): Start proc 3567:dev.maestro.taskflow/u0a116 for activity {dev.maestro.taskflow/dev.maestro.taskflow.MainActivity}
+10-30 01:00:06.370 W/ActivityManager( 1914): Slow operation: 79ms so far, now at startProcess: starting to update pids map
+10-30 01:00:06.370 W/ActivityManager( 1914): Slow operation: 79ms so far, now at startProcess: done updating pids map
+10-30 01:00:06.391 I/aestro.taskflo( 3567): Late-enabling -Xcheck:jni
+10-30 01:00:06.403 E/aestro.taskflo( 3567): Unknown bits set in runtime_flags: 0x8000
+10-30 01:00:06.403 W/aestro.taskflo( 3567): Unexpected CPU variant for X86 using defaults: x86_64
+10-30 01:00:06.409 W/InputReader( 1914): Device has associated, but no associated display id.
+10-30 01:00:06.413 I/chatty  ( 1914): uid=1000(system) Binder:1914_E identical 28 lines
+10-30 01:00:06.413 W/InputReader( 1914): Device has associated, but no associated display id.
+10-30 01:00:06.452 W/InputReader( 1914): Device has associated, but no associated display id.
+10-30 01:00:06.452 I/chatty  ( 1914): uid=1000(system) android.anim identical 8 lines
+10-30 01:00:06.452 W/InputReader( 1914): Device has associated, but no associated display id.
+10-30 01:00:06.456 E/SurfaceFlinger( 1747): ro.sf.lcd_density must be defined as a build property
+10-30 01:00:06.457 E/SurfaceFlinger( 1747): ro.sf.lcd_density must be defined as a build property
+10-30 01:00:06.457 D/libEGL  ( 3567): Emulator has host GPU support, qemu.gles is set to 1.
+10-30 01:00:06.463 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8298496
+10-30 01:00:06.475 W/aestro.taskflo( 3567): Accessing hidden method Landroid/view/WindowInsets$Type;->systemBars()I (blacklist, linking, denied)
+10-30 01:00:06.486 W/libc    ( 3567): Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+10-30 01:00:06.513 D/libEGL  ( 3567): loaded /vendor/lib64/egl/libEGL_emulation.so
+10-30 01:00:06.515 D/libEGL  ( 3567): loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-30 01:00:06.517 D/libEGL  ( 3567): loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-30 01:00:06.616 D/EGL_emulation( 2578): eglMakeCurrent: 0x78a37f047d60: ver 3 0 (tinfo 0x78a37f0fc0a0)
+10-30 01:00:06.622 D/HostConnection( 3567): HostConnection::get() New Host Connection established 0x78a37f047400, tid 3585
+10-30 01:00:06.624 D/HostConnection( 3567): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:06.628 D/EGL_emulation( 3567): eglCreateContext: 0x78a37f0475e0: maj 3 min 0 rcv 3
+10-30 01:00:06.629 D/EGL_emulation( 3567): eglMakeCurrent: 0x78a37f0475e0: ver 3 0 (tinfo 0x78a37f018e00)
+10-30 01:00:06.641 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8298496
+10-30 01:00:06.642 I/hwservicemanager( 1566): getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+10-30 01:00:06.642 W/Gralloc3( 3567): mapper 3.x is not supported
+10-30 01:00:06.643 D/HostConnection( 3567): createUnique: call
+10-30 01:00:06.645 D/HostConnection( 3567): HostConnection::get() New Host Connection established 0x78a37f047720, tid 3585
+10-30 01:00:06.646 D/HostConnection( 3567): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:06.646 D/EGL_emulation( 2065): eglMakeCurrent: 0x78a33316cba0: ver 3 0 (tinfo 0x78a3332e13e0)
+10-30 01:00:06.655 D/eglCodecCommon( 3567): allocate: Ask for block of size 0x1000
+10-30 01:00:06.656 D/eglCodecCommon( 3567): allocate: ioctl allocate returned offset 0x3ff807000 size 0x2000
+10-30 01:00:06.670 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8298496
+10-30 01:00:06.440 W/RenderThread( 3567): type=1400 audit(0.0:26): avc: denied { write } for name="property_service" dev="tmpfs" ino=6844 scontext=u:r:untrusted_app:s0:c116,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0 app=dev.maestro.taskflow
+10-30 01:00:06.675 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8298496
+10-30 01:00:06.680 D/EGL_emulation( 3567): eglMakeCurrent: 0x78a37f0475e0: ver 3 0 (tinfo 0x78a37f018e00)
+10-30 01:00:07.015 I/ActivityTaskManager( 1914): Displayed dev.maestro.taskflow/.MainActivity: +723ms
+10-30 01:00:07.106 I/InputReader( 1914): Reconfiguring input devices.  changes=0x00000010
+10-30 01:00:07.129 I/chatty  ( 1914): uid=1000(system) InputReader identical 4 lines
+10-30 01:00:07.133 I/InputReader( 1914): Reconfiguring input devices.  changes=0x00000010
+10-30 01:00:07.140 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.141 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:07.147 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.147 I/InputReader( 1914): Reconfiguring input devices.  changes=0x00000010
+10-30 01:00:07.152 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.154 I/Telecom ( 1914): DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: CM.CCCR->CM.UECNT->CM.CCCR->CM.UECNT@ADs
+10-30 01:00:07.158 W/VoiceInteractionManagerService( 1914): no available voice interaction services found for user 0
+10-30 01:00:07.158 I/Telecom ( 1914): DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: CM.CCCR->CM.UECNT->CM.CCCR->CM.UECNT@ADs
+10-30 01:00:07.168 D/CarrierSvcBindHelper( 2316): No carrier app for: 0
+10-30 01:00:07.211 I/chatty  ( 1914): uid=1000 system_server identical 5 lines
+10-30 01:00:07.214 I/Telecom ( 1914): DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: CM.CCCR->CM.UECNT->CM.CCCR->CM.UECNT@ADs
+10-30 01:00:07.254 W/VoiceInteractionManagerService( 1914): no available voice interaction services found for user 0
+10-30 01:00:07.264 I/chatty  ( 1914): uid=1000(system) android.bg identical 1 line
+10-30 01:00:07.299 W/VoiceInteractionManagerService( 1914): no available voice interaction services found for user 0
+10-30 01:00:07.350 V/SettingsProvider( 1914): Notifying for 0: content://settings/secure/input_methods_subtype_history
+10-30 01:00:07.325 I/chatty  ( 2316): uid=1001(radio) com.android.phone identical 6 lines
+10-30 01:00:07.337 D/CarrierSvcBindHelper( 2316): No carrier app for: 0
+10-30 01:00:07.353 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.353 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.359 W/VoiceInteractionManagerService( 1914): no available voice interaction services found for user 0
+10-30 01:00:07.361 I/InputAttributes( 2388): InputType.TYPE_NULL is specified
+10-30 01:00:07.365 E/system_server( 1914): No package ID 7f found for ID 0x7f080247.
+10-30 01:00:07.365 E/system_server( 1914): No package ID 7f found for ID 0x7f121165.
+10-30 01:00:07.365 E/system_server( 1914): No package ID 7f found for ID 0x7f080246.
+10-30 01:00:07.365 E/system_server( 1914): No package ID 7f found for ID 0x7f1204d9.
+10-30 01:00:07.366 E/system_server( 1914): No package ID 7f found for ID 0x7f080245.
+10-30 01:00:07.366 E/system_server( 1914): No package ID 7f found for ID 0x7f120ad2.
+10-30 01:00:07.374 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.374 D/Maestro ( 3480): View hierarchy received in 233 ms
+10-30 01:00:07.383 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:07.480 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+10-30 01:00:07.490 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:07.491 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.491 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.510 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.510 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.520 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.520 D/Maestro ( 3480): View hierarchy received in 30 ms
+10-30 01:00:07.622 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:07.623 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.623 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.640 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.640 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.651 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:07.651 D/Maestro ( 3480): View hierarchy received in 29 ms
+10-30 01:00:07.731 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:07.737 D/UiDevice( 3480): Waiting 500ms for window update of package dev.maestro.taskflow.
+10-30 01:00:08.254 W/UiDevice( 3480): Timed out waiting 500ms on window update.
+10-30 01:00:08.254 W/UiDevice( 3480): java.util.concurrent.TimeoutException: Expected event not received within: 500 ms among: []
+10-30 01:00:08.254 W/UiDevice( 3480): 	at android.app.UiAutomation.executeAndWaitForEvent(UiAutomation.java:725)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at androidx.test.uiautomator.UiDevice.waitForWindowUpdate(UiDevice.java:1253)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at dev.mobile.maestro.Service.isWindowUpdating(MaestroDriverService.kt:361)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at maestro_android.MaestroDriverGrpc$MethodHandlers.invoke(MaestroDriverGrpc.java:965)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-30 01:00:08.254 W/UiDevice( 3480): 	at java.lang.Thread.run(Thread.java:919)
+10-30 01:00:08.256 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:08.376 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:08.416 D/UiDevice( 3480): Waiting 500ms for window update of package dev.maestro.taskflow.
+10-30 01:00:08.916 W/UiDevice( 3480): Timed out waiting 500ms on window update.
+10-30 01:00:08.916 W/UiDevice( 3480): java.util.concurrent.TimeoutException: Expected event not received within: 500 ms among: []
+10-30 01:00:08.916 W/UiDevice( 3480): 	at android.app.UiAutomation.executeAndWaitForEvent(UiAutomation.java:725)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at androidx.test.uiautomator.UiDevice.waitForWindowUpdate(UiDevice.java:1253)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at dev.mobile.maestro.Service.isWindowUpdating(MaestroDriverService.kt:361)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at maestro_android.MaestroDriverGrpc$MethodHandlers.invoke(MaestroDriverGrpc.java:965)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-30 01:00:08.916 W/UiDevice( 3480): 	at java.lang.Thread.run(Thread.java:919)
+10-30 01:00:08.983 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:08.984 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:08.985 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:09.001 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.001 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.009 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.009 D/Maestro ( 3480): View hierarchy received in 26 ms
+10-30 01:00:09.011 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:09.158 I/netd    ( 1659): trafficSwapActiveStatsMap() <44.84ms>
+10-30 01:00:09.159 I/netd    ( 1659): tetherGetStats() <0.48ms>
+10-30 01:00:09.162 I/netd    ( 1659): bandwidthSetGlobalAlert(2097152) <0.10ms>
+10-30 01:00:09.164 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:09.164 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:09.165 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:09.165 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:09.251 D/AF::TrackHandle( 1744): OpPlayAudio: track:55 usage:13 not muted
+10-30 01:00:09.252 W/AudioTrack( 1914): createTrack_l(7143493): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 4512
+10-30 01:00:09.303 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:09.398 I/LatinIME( 2388): Timeout waiting for dictionary load
+10-30 01:00:07.376 I/chatty  ( 1914): uid=1000(system) android.bg identical 2 lines
+10-30 01:00:07.387 W/VoiceInteractionManagerService( 1914): no available voice interaction services found for user 0
+10-30 01:00:09.826 E/TaskPersister( 1914): File error accessing recents directory (directory doesn't exist?).
+10-30 01:00:09.835 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:09.836 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:09.836 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:09.847 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.847 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.853 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.853 D/Maestro ( 3480): View hierarchy received in 18 ms
+10-30 01:00:09.854 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:09.873 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:09.874 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:09.874 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:09.890 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.890 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.897 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:09.897 D/Maestro ( 3480): View hierarchy received in 24 ms
+10-30 01:00:10.001 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:10.002 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:10.002 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:10.016 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:10.016 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:10.022 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:10.022 D/Maestro ( 3480): View hierarchy received in 21 ms
+10-30 01:00:10.052 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:10.053 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:10.053 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:10.065 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:10.065 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:10.071 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:10.071 D/Maestro ( 3480): View hierarchy received in 19 ms
+10-30 01:00:10.119 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:10.124 D/UiDevice( 3480): Waiting 500ms for window update of package dev.maestro.taskflow.
+10-30 01:00:10.625 W/UiDevice( 3480): Timed out waiting 500ms on window update.
+10-30 01:00:10.625 W/UiDevice( 3480): java.util.concurrent.TimeoutException: Expected event not received within: 500 ms among: []
+10-30 01:00:10.625 W/UiDevice( 3480): 	at android.app.UiAutomation.executeAndWaitForEvent(UiAutomation.java:725)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at androidx.test.uiautomator.UiDevice.waitForWindowUpdate(UiDevice.java:1253)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at dev.mobile.maestro.Service.isWindowUpdating(MaestroDriverService.kt:361)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at maestro_android.MaestroDriverGrpc$MethodHandlers.invoke(MaestroDriverGrpc.java:965)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-30 01:00:10.625 W/UiDevice( 3480): 	at java.lang.Thread.run(Thread.java:919)
+10-30 01:00:10.683 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:10.688 D/UiDevice( 3480): Waiting 500ms for window update of package dev.maestro.taskflow.
+10-30 01:00:11.189 W/UiDevice( 3480): Timed out waiting 500ms on window update.
+10-30 01:00:11.189 W/UiDevice( 3480): java.util.concurrent.TimeoutException: Expected event not received within: 500 ms among: []
+10-30 01:00:11.189 W/UiDevice( 3480): 	at android.app.UiAutomation.executeAndWaitForEvent(UiAutomation.java:725)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at androidx.test.uiautomator.UiDevice.waitForWindowUpdate(UiDevice.java:1253)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at dev.mobile.maestro.Service.isWindowUpdating(MaestroDriverService.kt:361)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at maestro_android.MaestroDriverGrpc$MethodHandlers.invoke(MaestroDriverGrpc.java:965)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-30 01:00:11.189 W/UiDevice( 3480): 	at java.lang.Thread.run(Thread.java:919)
+10-30 01:00:11.255 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:11.255 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:11.256 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:11.266 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:11.266 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:11.273 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:11.273 D/Maestro ( 3480): View hierarchy received in 18 ms
+10-30 01:00:11.273 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:11.415 D/AutofillManagerServiceImpl( 1914): Reset component for user 0:
+10-30 01:00:11.416 D/AutofillUI( 1914): destroySaveUiUiThread(): already destroyed
+10-30 01:00:11.449 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:11.449 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:11.474 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:11.474 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:11.477 W/RichInputMethodSubtype( 2388): Can't find emoji subtype
+10-30 01:00:11.481 W/RichInputMethodSubtype( 2388): No input method subtype found; returning dummy subtype: Multi-lingual subtype: android.view.inputmethod.InputMethodSubtype@d78b2ed0, zz
+10-30 01:00:11.484 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:11.484 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:11.494 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:11.494 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:11.556 I/EmojiCategory( 2388): Last Emoji category id is 8
+10-30 01:00:11.573 W/ViewPager( 2388): Requested offscreen page limit 0 too small; defaulting to 1
+10-30 01:00:11.578 I/LatinIME( 2388): Starting input. Cursor position = 0,0
+10-30 01:00:11.629 E/SurfaceFlinger( 1747): ro.sf.lcd_density must be defined as a build property
+10-30 01:00:11.629 E/SurfaceFlinger( 1747): ro.sf.lcd_density must be defined as a build property
+10-30 01:00:11.645 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 12288
+10-30 01:00:11.653 D/HostConnection( 2065): HostConnection::get() New Host Connection established 0x78a37f054780, tid 2496
+10-30 01:00:11.655 D/HostConnection( 2065): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:11.656 D/EGL_emulation( 2065): eglCreateContext: 0x78a37f054e60: maj 3 min 0 rcv 3
+10-30 01:00:11.656 D/EGL_emulation( 2065): eglMakeCurrent: 0x78a37f054e60: ver 3 0 (tinfo 0x78a37eaa9460)
+10-30 01:00:11.665 D/libEGL  ( 2388): Emulator has host GPU support, qemu.gles is set to 1.
+10-30 01:00:11.685 W/libc    ( 2388): Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+10-30 01:00:11.687 D/libEGL  ( 2388): loaded /vendor/lib64/egl/libEGL_emulation.so
+10-30 01:00:11.688 D/libEGL  ( 2388): loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-30 01:00:11.688 D/libEGL  ( 2388): loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-30 01:00:11.698 D/HostConnection( 2388): HostConnection::get() New Host Connection established 0x78a37ebda380, tid 3606
+10-30 01:00:11.700 D/HostConnection( 2388): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:11.702 D/EGL_emulation( 2388): eglCreateContext: 0x78a37ebdaa60: maj 3 min 0 rcv 3
+10-30 01:00:11.703 D/EGL_emulation( 2388): eglMakeCurrent: 0x78a37ebdaa60: ver 3 0 (tinfo 0x78a333d23280)
+10-30 01:00:11.650 W/RenderThread( 2388): type=1400 audit(0.0:27): avc: denied { write } for name="property_service" dev="tmpfs" ino=6844 scontext=u:r:untrusted_app_27:s0:c115,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0 app=com.android.inputmethod.latin
+10-30 01:00:11.731 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8024064
+10-30 01:00:11.744 I/hwservicemanager( 1566): getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+10-30 01:00:11.744 W/Gralloc3( 2388): mapper 3.x is not supported
+10-30 01:00:11.758 D/HostConnection( 2388): createUnique: call
+10-30 01:00:11.759 D/HostConnection( 2388): HostConnection::get() New Host Connection established 0x78a37ebdaba0, tid 3606
+10-30 01:00:11.768 D/HostConnection( 2388): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:11.769 D/eglCodecCommon( 2388): allocate: Ask for block of size 0x1000
+10-30 01:00:11.769 D/eglCodecCommon( 2388): allocate: ioctl allocate returned offset 0x3ff805000 size 0x2000
+10-30 01:00:11.792 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8024064
+10-30 01:00:11.799 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8024064
+10-30 01:00:11.800 D/EGL_emulation( 2388): eglMakeCurrent: 0x78a37ebdaa60: ver 3 0 (tinfo 0x78a333d23280)
+10-30 01:00:12.188 I/Choreographer( 2388): Skipped 32 frames!  The application may be doing too much work on its main thread.
+10-30 01:00:12.191 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:12.192 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:12.193 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:12.194 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:12.312 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@d5e0; boundsInParent: Rect(0, 0 - 954, 87); boundsInScreen: Rect(63, 812 - 1017, 766); packageName: dev.maestro.taskflow; className: android.widget.TextView; text: Hasta 120 caracteres. Tus tareas se guardan en este dispositivo.; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.312 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.312 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.327 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@870c; boundsInParent: Rect(0, 0 - 1080, 0); boundsInScreen: Rect(0, 63 - 1080, 63); packageName: com.android.inputmethod.latin; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/fullscreenArea; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.347 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.347 D/Maestro ( 3480): View hierarchy received in 155 ms
+10-30 01:00:12.348 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:12.497 W/audio_hw_generic( 1692): Not supplying enough data to HAL, expected position 273406 , only wrote 137488
+10-30 01:00:12.816 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:12.855 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:12.859 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:12.895 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@d5e0; boundsInParent: Rect(0, 0 - 954, 87); boundsInScreen: Rect(63, 812 - 1017, 766); packageName: dev.maestro.taskflow; className: android.widget.TextView; text: Hasta 120 caracteres. Tus tareas se guardan en este dispositivo.; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.895 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.895 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.907 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@870c; boundsInParent: Rect(0, 0 - 1080, 0); boundsInScreen: Rect(0, 63 - 1080, 63); packageName: com.android.inputmethod.latin; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/fullscreenArea; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.917 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:12.917 D/Maestro ( 3480): View hierarchy received in 101 ms
+10-30 01:00:12.988 D/Maestro ( 3480): Inputting text
+10-30 01:00:12.988 D/Maestro ( 3480): 80
+10-30 01:00:12.989 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:12.989 D/UiDevice( 3480): Pressing keycodes [44] with modifier 1.
+10-30 01:00:13.099 D/WificondControl( 1914): Scan result ready event
+10-30 01:00:13.131 D/WifiClientModeImpl( 1914): CMD_START_CONNECT sup state UninitializedState my state DisconnectedState nid=0 roam=false
+10-30 01:00:13.134 I/WifiClientModeImpl( 1914): Connecting with 02:15:b2:00:00:00 as the mac address
+10-30 01:00:13.134 W/wificond( 1803): Scan is not started. Ignore abort request
+10-30 01:00:13.134 D/SupplicantStaIfaceHal( 1914): connectToNetwork "AndroidWifi"NONE
+10-30 01:00:13.134 I/SupplicantStaIfaceHal( 1914): addSupplicantStaNetwork via HIDL
+10-30 01:00:13.137 D/Maestro ( 3480): 114
+10-30 01:00:13.137 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:13.137 D/UiDevice( 3480): Pressing keycodes [46] with modifier 0.
+10-30 01:00:13.219 I/wpa_supplicant( 2180): wlan0: SME: Trying to authenticate with 02:15:b2:00:01:00 (SSID='AndroidWifi' freq=2447 MHz)
+10-30 01:00:13.239 I/hostapd ( 1763): wlan1: STA 02:15:b2:00:00:00 IEEE 802.11: authenticated
+10-30 01:00:13.239 I/hostapd ( 1763): wlan1: STA 02:15:b2:00:00:00 IEEE 802.11: authenticated
+10-30 01:00:13.241 I/wpa_supplicant( 2180): wlan0: Trying to associate with 02:15:b2:00:01:00 (SSID='AndroidWifi' freq=2447 MHz)
+10-30 01:00:13.251 I/hostapd ( 1763): wlan1: STA 02:15:b2:00:00:00 IEEE 802.11: associated (aid 1)
+10-30 01:00:13.251 I/hostapd ( 1763): wlan1: STA 02:15:b2:00:00:00 IEEE 802.11: associated (aid 1)
+10-30 01:00:13.251 I/hostapd ( 1763): wlan1: AP-STA-CONNECTED 02:15:b2:00:00:00
+10-30 01:00:13.257 I/netd    ( 1659): interfaceGetCfg("wlan0") <0.15ms>
+10-30 01:00:13.263 I/wpa_supplicant( 2180): wlan0: Associated with 02:15:b2:00:01:00
+10-30 01:00:13.264 I/wpa_supplicant( 2180): wlan0: CTRL-EVENT-CONNECTED - Connection to 02:15:b2:00:01:00 completed [id=0 id_str=%7B%22configKey%22%3A%22%5C%22AndroidWifi%5C%22NONE%22%2C%22creatorUid%22%3A%221000%22%7D]
+10-30 01:00:13.266 I/netd    ( 1659): interfaceGetCfg("wlan0") <0.59ms>
+10-30 01:00:13.266 I/wpa_supplicant( 2180): wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+10-30 01:00:13.269 D/ConnectivityService( 1914): registerNetworkAgent NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTING/CONNECTING, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]}  network{101}  nethandle{437197393933}  lp{{LinkAddresses: [ ] DnsAddresses: [ ] Domains: null MTU: 0 Routes: [ ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&NOT_VPN&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="AndroidWifi", BSSID=02:15:b2:00:01:00, mOriginalRequestorUid=-1, mOriginalRequestorPackageName=]> SSID: "AndroidWifi"]}  Score{20}  everValidated{false}  lastValidated{false}  created{false} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} captivePortalValidationPending{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+10-30 01:00:13.271 E/SupplicantStaIfaceHal( 1914): ISupplicantStaIface.setPowerSave failed: {.code = FAILURE_UNKNOWN, .debugMessage = }
+10-30 01:00:13.277 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.277 I/netd    ( 1659): interfaceSetIPv6PrivacyExtensions("wlan0", "true") <0.34ms>
+10-30 01:00:13.277 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.277 I/netd    ( 1659): setIPv6AddrGenMode("wlan0", 0) <0.15ms>
+10-30 01:00:13.278 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.278 I/netd    ( 1659): interfaceSetEnableIPv6("wlan0", "true") <0.46ms>
+10-30 01:00:13.281 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.281 I/netd    ( 1659): setProcSysNet(4, 2, "wlan0", "retrans_time_ms", "750") <0.14ms>
+10-30 01:00:13.282 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.282 I/netd    ( 1659): setProcSysNet(4, 2, "wlan0", "ucast_solicit", "5") <0.11ms>
+10-30 01:00:13.282 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.282 I/netd    ( 1659): setProcSysNet(6, 2, "wlan0", "retrans_time_ms", "750") <0.12ms>
+10-30 01:00:13.282 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.282 I/netd    ( 1659): setProcSysNet(6, 2, "wlan0", "ucast_solicit", "5") <0.14ms>
+10-30 01:00:13.299 D/ConnectivityService( 1914): NetworkAgentInfo [WIFI () - 101] EVENT_NETWORK_INFO_CHANGED, going from null to CONNECTING
+10-30 01:00:13.301 I/netd    ( 1659): trafficSwapActiveStatsMap() <40.45ms>
+10-30 01:00:13.305 I/netd    ( 1659): tetherGetStats() <1.75ms>
+10-30 01:00:13.323 D/ConnectivityService( 1914): NetworkAgentInfo [WIFI () - 101] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTING
+10-30 01:00:13.326 D/DhcpClient( 2242): Receive thread started
+10-30 01:00:13.331 D/ConnectivityService( 1914): Adding iface wlan0 to network 101
+10-30 01:00:13.332 E/Netd    ( 1659): no such netId 101
+10-30 01:00:13.332 I/netd    ( 1659): networkAddInterface(101, "wlan0") -> ServiceSpecificException(64, "Machine is not on the network") <0.09ms>
+10-30 01:00:13.335 D/DhcpClient( 2242): Broadcasting DHCPDISCOVER
+10-30 01:00:13.337 D/DhcpClient( 2242): Received packet: 02:15:b2:00:00:00 OFFER, ip /10.0.2.16, mask /255.255.255.0, DNS servers: /10.0.2.3 , gateways [/10.0.2.2] lease time 86400, domain null
+10-30 01:00:13.337 D/DhcpClient( 2242): Got pending lease: android.net.networkstack.DhcpResults@74bb113 DHCP server /10.0.2.2 Vendor info null lease 86400 seconds Servername 
+10-30 01:00:13.339 D/DhcpClient( 2242): Broadcasting DHCPREQUEST ciaddr=0.0.0.0 request=10.0.2.16 serverid=10.0.2.2
+10-30 01:00:13.340 D/DhcpClient( 2242): Received packet: 02:15:b2:00:00:00 ACK: your new IP /10.0.2.16, netmask /255.255.255.0, gateways [/10.0.2.2] DNS servers: /10.0.2.3 , lease time 86400
+10-30 01:00:13.341 E/ConnectivityService( 1914): Exception adding interface: java.lang.IllegalStateException: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+10-30 01:00:13.341 D/DhcpClient( 2242): Confirmed lease: android.net.networkstack.DhcpResults@e732549 DHCP server /10.0.2.2 Vendor info null lease 86400 seconds Servername 
+10-30 01:00:13.346 W/ServiceManager( 1659): Permission failure: android.permission.NETWORK_STACK from uid=1073 pid=2242
+10-30 01:00:13.346 I/netd    ( 1659): interfaceSetCfg() <0.47ms>
+10-30 01:00:13.352 D/DhcpClient( 2242): Scheduling renewal in 43199s
+10-30 01:00:13.352 D/DhcpClient( 2242): Scheduling rebind in 75599s
+10-30 01:00:13.352 D/DhcpClient( 2242): Scheduling expiry in 86399s
+10-30 01:00:13.354 E/Netd    ( 1659): no such netId 101
+10-30 01:00:13.354 I/netd    ( 1659): networkAddRoute(101, "wlan0", "fe80::/64", "") -> ServiceSpecificException(64, "Machine is not on the network") <0.05ms>
+10-30 01:00:13.354 E/SupplicantStaIfaceHal( 1914): ISupplicantStaIface.setPowerSave failed: {.code = FAILURE_UNKNOWN, .debugMessage = }
+10-30 01:00:13.378 D/Maestro ( 3480): 101
+10-30 01:00:13.379 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:13.380 D/UiDevice( 3480): Pressing keycodes [33] with modifier 0.
+10-30 01:00:13.388 W/View    ( 2065): requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{5cab717 V.E...... ......ID 7,0-53,58 #7f0a03ef app:id/wifi_group} during layout: running second layout pass
+10-30 01:00:13.388 W/View    ( 2065): requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{639adb3 V.E...... ......ID 7,0-53,58 #7f0a03ef app:id/wifi_group} during layout: running second layout pass
+10-30 01:00:13.388 W/View    ( 2065): requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{914e4a5 V.E...... ......ID 7,0-53,58 #7f0a03ef app:id/wifi_group} during layout: running second layout pass
+10-30 01:00:13.390 D/EGL_emulation( 2065): eglMakeCurrent: 0x78a33316cba0: ver 3 0 (tinfo 0x78a3332e13e0)
+10-30 01:00:13.413 I/netd    ( 1659): trafficSwapActiveStatsMap() <49.52ms>
+10-30 01:00:13.418 I/netd    ( 1659): tetherGetStats() <0.56ms>
+10-30 01:00:13.462 E/Netd    ( 1659): no such netId 101
+10-30 01:00:13.462 I/netd    ( 1659): networkAddRoute(101, "wlan0", "10.0.2.0/24", "") -> ServiceSpecificException(64, "Machine is not on the network") <0.06ms>
+10-30 01:00:13.462 E/ConnectivityService( 1914): Exception in addRoute for non-gateway: java.lang.IllegalStateException: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+10-30 01:00:13.463 E/Netd    ( 1659): no such netId 101
+10-30 01:00:13.463 I/netd    ( 1659): networkAddRoute(101, "wlan0", "0.0.0.0/0", "10.0.2.2") -> ServiceSpecificException(64, "Machine is not on the network") <0.03ms>
+10-30 01:00:13.463 E/ConnectivityService( 1914): Exception in addRoute for gateway: java.lang.IllegalStateException: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+10-30 01:00:13.526 I/netd    ( 1659): trafficSwapActiveStatsMap() <61.16ms>
+10-30 01:00:13.528 I/netd    ( 1659): tetherGetStats() <0.37ms>
+10-30 01:00:13.559 D/Maestro ( 3480): 112
+10-30 01:00:13.563 D/ConnectivityService( 1914): Setting DNS servers for network 101 to [/10.0.2.3]
+10-30 01:00:13.564 D/DnsManager( 1914): setDnsConfigurationForNetwork(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, , [])
+10-30 01:00:13.564 I/netd    ( 1659): DnsResolverService::setResolverConfiguration(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, [], []) -> (-64) (0.04ms)
+10-30 01:00:13.564 I/netd    ( 1659): setResolverConfiguration() -> ServiceSpecificException(64, "Machine is not on the network") <0.15ms>
+10-30 01:00:13.564 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:13.564 D/UiDevice( 3480): Pressing keycodes [44] with modifier 0.
+10-30 01:00:13.567 E/DnsManager( 1914): Error setting DNS configuration: android.os.ServiceSpecificException: Machine is not on the network (code 64)
+10-30 01:00:13.608 I/netd    ( 1659): trafficSwapActiveStatsMap() <32.56ms>
+10-30 01:00:13.611 I/netd    ( 1659): tetherGetStats() <0.38ms>
+10-30 01:00:13.616 D/ConnectivityService( 1914): NetworkAgentInfo [WIFI () - 101] EVENT_NETWORK_INFO_CHANGED, going from CONNECTING to CONNECTED
+10-30 01:00:13.616 D/TcpSocketMonitor( 1659): resuming tcpinfo polling (interval=30000ms)
+10-30 01:00:13.616 I/netd    ( 1659): networkCreatePhysical(101, 0) <0.05ms>
+10-30 01:00:13.616 I/netd    ( 1659): createNetworkCache(101) <0.03ms>
+10-30 01:00:13.616 W/DnsManager( 1914): updatePrivateDns(101, PrivateDnsConfig{true:/[]})
+10-30 01:00:13.616 D/ConnectivityService( 1914): Setting DNS servers for network 101 to [/10.0.2.3]
+10-30 01:00:13.617 D/DnsManager( 1914): setDnsConfigurationForNetwork(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, , [10.0.2.3])
+10-30 01:00:13.617 I/netd    ( 1659): DnsResolverService::setResolverConfiguration(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, [10.0.2.3], []) -> (0) (0.1ms)
+10-30 01:00:13.617 I/netd    ( 1659): setResolverConfiguration() <0.20ms>
+10-30 01:00:13.622 D/ConnectivityService( 1914): Adding iface wlan0 to network 101
+10-30 01:00:13.628 I/netd    ( 1659): networkAddInterface(101, "wlan0") <5.70ms>
+10-30 01:00:13.628 I/netd    ( 1659): networkAddRoute(101, "wlan0", "fe80::/64", "") <0.10ms>
+10-30 01:00:13.629 I/netd    ( 1659): networkAddRoute(101, "wlan0", "10.0.2.0/24", "") <0.06ms>
+10-30 01:00:13.629 I/netd    ( 1659): networkAddRoute(101, "wlan0", "0.0.0.0/0", "10.0.2.2") <0.05ms>
+10-30 01:00:13.629 D/ConnectivityService( 1914): Setting DNS servers for network 101 to [/10.0.2.3]
+10-30 01:00:13.629 D/DnsManager( 1914): setDnsConfigurationForNetwork(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, , [10.0.2.3])
+10-30 01:00:13.629 I/netd    ( 1659): DnsResolverService::setResolverConfiguration(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, [10.0.2.3], []) -> (0) (0.06ms)
+10-30 01:00:13.629 I/netd    ( 1659): setResolverConfiguration() <0.15ms>
+10-30 01:00:13.682 W/DnsTlsSocket( 1659): SSL_connect error 5, errno=111
+10-30 01:00:13.700 I/netd    ( 1659): trafficSwapActiveStatsMap() <57.10ms>
+10-30 01:00:13.719 I/netd    ( 1659): tetherGetStats() <0.54ms>
+10-30 01:00:13.735 D/WifiNetworkAgent( 1914): NetworkAgent: Received signal strength thresholds: []
+10-30 01:00:13.739 E/WifiVendorHal( 1914): stopRssiMonitoring(l.2042) failed {.code = ERROR_NOT_AVAILABLE, .description = }
+10-30 01:00:13.757 I/netd    ( 1659): bandwidthRemoveInterfaceQuota("radio0") <1.92ms>
+10-30 01:00:13.789 I/netd    ( 1659): bandwidthSetInterfaceQuota("radio0", 9223372036854775807) <10.56ms>
+10-30 01:00:13.790 I/netd    ( 1659): bandwidthSetGlobalAlert(2097152) <0.10ms>
+10-30 01:00:13.798 D/Maestro ( 3480): 97
+10-30 01:00:13.800 D/NetworkMonitor/101( 2242): PROBE_DNS connectivitycheck.gstatic.com 50ms OK 142.251.219.131
+10-30 01:00:13.808 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:13.808 D/UiDevice( 3480): Pressing keycodes [29] with modifier 0.
+10-30 01:00:13.828 I/DropBoxManagerService( 1914): add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:13.845 D/NetworkMonitor/101( 2242): PROBE_DNS www.google.com 91ms OK 142.251.153.119,142.251.157.119,142.251.150.119,142.251.155.119,142.251.151.119,142.251.154.119,142.251.152.119,142.251.156.119
+10-30 01:00:13.852 E/ResolverController( 1659): No valid NAT64 prefix (101, <unspecified>/0)
+10-30 01:00:13.857 D/AlarmManagerService( 1914): Kernel timezone updated to 0 minutes west of GMT
+10-30 01:00:13.895 E/ResolverController( 1659): No valid NAT64 prefix (101, <unspecified>/0)
+10-30 01:00:13.915 D/NetworkMonitor/101( 2242): PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=93ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Fri, 30 Oct 2026 01:00:14 GMT], X-Android-Received-Millis=[1793322013915], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1793322013910]}
+10-30 01:00:13.946 D/NetworkMonitor/101( 2242): PROBE_HTTPS https://www.google.com/generate_204 time=100ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Alt-Svc=[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Fri, 30 Oct 2026 01:00:14 GMT], X-Android-Received-Millis=[1793322013942], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1793322013933]}
+10-30 01:00:13.947 D/NetworkMonitor/101( 2242): isCaptivePortal: isSuccessful()=true isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=198ms
+10-30 01:00:13.926 I/chatty  ( 1914): uid=1000(system) android.io identical 3 lines
+10-30 01:00:13.947 I/DropBoxManagerService( 1914): add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:13.949 D/ConnectivityService( 1914): NetworkAgentInfo [WIFI () - 101] validation passed
+10-30 01:00:13.951 I/DropBoxManagerService( 1914): add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:13.953 I/netd    ( 1659): idletimerAddInterface("wlan0", 15, "1") <2.56ms>
+10-30 01:00:13.953 I/netd    ( 1659): idletimerRemoveInterface("radio0", 10, "0") <0.41ms>
+10-30 01:00:13.952 I/DropBoxManagerService( 1914): add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:13.953 D/ConnectivityService( 1914): Switching to new default network: NetworkAgentInfo{ ni{[type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]}  network{101}  nethandle{437197393933}  lp{{InterfaceName: wlan0 LinkAddresses: [ fe80::15:b2ff:fe00:0/64,10.0.2.16/24 ] DnsAddresses: [ /10.0.2.3 ] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576 Routes: [ fe80::/64 -> :: wlan0,10.0.2.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 10.0.2.2 wlan0 ]}}  nc{[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps Specifier: <WifiNetworkAgentSpecifier [WifiConfiguration=, SSID="AndroidWifi", BSSID=02:15:b2:00:01:00, mOriginalRequestorUid=-1, mOriginalRequestorPackageName=]> SignalStrength: -30 SSID: "AndroidWifi"]}  Score{60}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} captivePortalValidationPending{false} partialConnectivity{false} acceptPartialConnectivity{false} clat{mBaseIface: null, mIface: null, mState: IDLE} }
+10-30 01:00:13.954 I/netd    ( 1659): networkSetDefault(101) <0.10ms>
+10-30 01:00:13.959 I/DropBoxManagerService( 1914): add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:13.996 D/Maestro ( 3480): 114
+10-30 01:00:13.996 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:13.997 D/UiDevice( 3480): Pressing keycodes [46] with modifier 0.
+10-30 01:00:13.998 I/netd    ( 1659): trafficSwapActiveStatsMap() <43.32ms>
+10-30 01:00:14.019 I/netd    ( 1659): tetherGetStats() <15.57ms>
+10-30 01:00:14.040 I/netd    ( 1659): trafficSwapActiveStatsMap() <37.26ms>
+10-30 01:00:14.041 I/netd    ( 1659): tetherGetStats() <0.46ms>
+10-30 01:00:14.055 D/NetworkTimeUpdateService( 1914): New default network 101; checking time.
+10-30 01:00:14.060 I/GnssNetworkConnectivityHandler( 1914): updateNetworkState, state=CLOSED, connected=true, network=101, capabilities=[ Transports: WIFI Capabilities: NOT_METERED&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&NOT_ROAMING&FOREGROUND&NOT_CONGESTED&NOT_SUSPENDED LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -30 SSID: "AndroidWifi"], apn: null, availableNetworkCount: 2
+10-30 01:00:13.960 I/DropBoxManagerService( 1914): add tag=system_app_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:14.073 D/ConnectivityService( 1914): Lingering NetworkAgentInfo [MOBILE (LTE) - 100] for 30000ms
+10-30 01:00:14.078 D/ConnectivityService( 1914): Sending DISCONNECTED broadcast for type 0 NetworkAgentInfo [MOBILE (LTE) - 100] isDefaultNetwork=true
+10-30 01:00:14.078 D/ConnectivityService( 1914): Sending CONNECTED broadcast for type 1 NetworkAgentInfo [WIFI () - 101] isDefaultNetwork=true
+10-30 01:00:14.107 D/ConnectivityService( 1914): Setting DNS servers for network 101 to [/10.0.2.3]
+10-30 01:00:14.107 D/DnsManager( 1914): setDnsConfigurationForNetwork(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, , [10.0.2.3])
+10-30 01:00:14.108 I/netd    ( 1659): DnsResolverService::setResolverConfiguration(101, [10.0.2.3], [], 1800, 25, 8, 64, 0, 0, [10.0.2.3], []) -> (0) (0.1ms)
+10-30 01:00:14.108 I/netd    ( 1659): setResolverConfiguration() <0.26ms>
+10-30 01:00:14.110 I/netd    ( 1659): bandwidthRemoveInterfaceQuota("radio0") <1.46ms>
+10-30 01:00:14.112 I/netd    ( 1659): bandwidthSetInterfaceQuota("radio0", 9223372036854775807) <2.23ms>
+10-30 01:00:14.112 W/DnsTlsSocket( 1659): SSL_connect error 5, errno=111
+10-30 01:00:14.114 I/netd    ( 1659): bandwidthSetGlobalAlert(2097152) <0.07ms>
+10-30 01:00:14.121 I/netd    ( 1659): bandwidthRemoveInterfaceQuota("radio0") <4.79ms>
+10-30 01:00:14.122 I/netd    ( 1659): bandwidthSetInterfaceQuota("radio0", 9223372036854775807) <0.46ms>
+10-30 01:00:14.123 I/netd    ( 1659): bandwidthSetGlobalAlert(2097152) <0.08ms>
+10-30 01:00:14.160 D/Maestro ( 3480): 97
+10-30 01:00:14.161 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:14.161 D/UiDevice( 3480): Pressing keycodes [29] with modifier 0.
+10-30 01:00:14.391 I/netd    ( 1659): networkAddRoute(101, "wlan0", "fec0::/64", "") <0.27ms>
+10-30 01:00:14.391 E/Netd    ( 1659): Error adding route ::/0 -> fe80::2 wlan0 to table 1003: File exists
+10-30 01:00:14.391 I/netd    ( 1659): networkAddRoute(101, "wlan0", "::/0", "fe80::2") <0.08ms>
+10-30 01:00:14.392 D/Maestro ( 3480): 114
+10-30 01:00:14.393 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:14.393 D/UiDevice( 3480): Pressing keycodes [46] with modifier 0.
+10-30 01:00:14.439 I/netd    ( 1659): trafficSwapActiveStatsMap() <46.96ms>
+10-30 01:00:14.440 I/netd    ( 1659): tetherGetStats() <0.31ms>
+10-30 01:00:14.596 D/Maestro ( 3480): 32
+10-30 01:00:14.599 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:14.599 D/UiDevice( 3480): Pressing keycodes [62] with modifier 0.
+10-30 01:00:14.627 I/LatinIME:LogUtils( 2388): Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1793322014 ; date = ?
+10-30 01:00:14.730 D/Maestro ( 3480): 101
+10-30 01:00:14.730 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:14.730 D/UiDevice( 3480): Pressing keycodes [33] with modifier 0.
+10-30 01:00:14.775 I/LatinIME:LogUtils( 2388): Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+10-30 01:00:14.869 D/Maestro ( 3480): 110
+10-30 01:00:14.869 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:14.870 D/UiDevice( 3480): Pressing keycodes [42] with modifier 0.
+10-30 01:00:14.998 D/Maestro ( 3480): 116
+10-30 01:00:14.998 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:14.999 D/UiDevice( 3480): Pressing keycodes [48] with modifier 0.
+10-30 01:00:15.059 I/ActivityManager( 1914): Killing 3006:com.android.quicksearchbox/u0a110 (adj 985): empty #17
+10-30 01:00:15.073 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:15.073 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:15.089 I/Zygote  ( 1660): Process 3006 exited due to signal 9 (Killed)
+10-30 01:00:15.090 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:15.090 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:15.101 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:15.101 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:15.109 I/libprocessgroup( 1914): Successfully killed process cgroup uid 10110 pid 3006 in 45ms
+10-30 01:00:15.166 D/Maestro ( 3480): 114
+10-30 01:00:15.167 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:15.167 D/UiDevice( 3480): Pressing keycodes [46] with modifier 0.
+10-30 01:00:15.317 D/Maestro ( 3480): 101
+10-30 01:00:15.319 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:15.319 D/UiDevice( 3480): Pressing keycodes [33] with modifier 0.
+10-30 01:00:15.513 D/Maestro ( 3480): 103
+10-30 01:00:15.516 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:15.532 D/UiDevice( 3480): Pressing keycodes [35] with modifier 0.
+10-30 01:00:15.695 D/Maestro ( 3480): 97
+10-30 01:00:15.696 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:15.696 D/UiDevice( 3480): Pressing keycodes [29] with modifier 0.
+10-30 01:00:15.899 D/Maestro ( 3480): 32
+10-30 01:00:15.905 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:15.905 D/UiDevice( 3480): Pressing keycodes [62] with modifier 0.
+10-30 01:00:16.103 D/Maestro ( 3480): 100
+10-30 01:00:16.104 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:16.104 D/UiDevice( 3480): Pressing keycodes [32] with modifier 0.
+10-30 01:00:16.131 I/DropBoxManagerService( 1914): add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:16.245 D/Maestro ( 3480): 101
+10-30 01:00:16.245 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:16.246 D/UiDevice( 3480): Pressing keycodes [33] with modifier 0.
+10-30 01:00:16.397 D/Maestro ( 3480): 32
+10-30 01:00:16.397 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:16.398 D/UiDevice( 3480): Pressing keycodes [62] with modifier 0.
+10-30 01:00:16.648 D/Maestro ( 3480): 77
+10-30 01:00:16.650 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:16.651 D/UiDevice( 3480): Pressing keycodes [41] with modifier 1.
+10-30 01:00:16.783 D/Maestro ( 3480): 97
+10-30 01:00:16.784 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:16.785 D/UiDevice( 3480): Pressing keycodes [29] with modifier 0.
+10-30 01:00:17.014 D/Maestro ( 3480): 101
+10-30 01:00:17.015 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:17.015 D/UiDevice( 3480): Pressing keycodes [33] with modifier 0.
+10-30 01:00:17.166 D/Maestro ( 3480): 115
+10-30 01:00:17.167 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:17.167 D/UiDevice( 3480): Pressing keycodes [47] with modifier 0.
+10-30 01:00:17.308 D/Maestro ( 3480): 116
+10-30 01:00:17.308 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:17.308 D/UiDevice( 3480): Pressing keycodes [48] with modifier 0.
+10-30 01:00:17.446 D/Maestro ( 3480): 114
+10-30 01:00:17.447 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:17.447 D/UiDevice( 3480): Pressing keycodes [46] with modifier 0.
+10-30 01:00:17.574 D/Maestro ( 3480): 111
+10-30 01:00:17.575 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:17.575 D/UiDevice( 3480): Pressing keycodes [43] with modifier 0.
+10-30 01:00:17.799 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:17.805 D/Zygote  ( 1660): Forked child process 3626
+10-30 01:00:16.143 I/chatty  ( 1914): uid=1000(system) android.io identical 4 lines
+10-30 01:00:16.145 I/DropBoxManagerService( 1914): add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-30 01:00:17.806 I/ActivityManager( 1914): Start proc 3626:com.android.keychain/1000 for service {com.android.keychain/com.android.keychain.KeyChainService}
+10-30 01:00:17.810 W/ndroid.keychai( 3626): Unexpected CPU variant for X86 using defaults: x86_64
+10-30 01:00:17.819 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:17.819 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:17.822 I/ndroid.keychai( 3626): The ClassLoaderContext is a special shared library.
+10-30 01:00:17.830 I/ActivityManager( 1914): Killing 2932:com.android.calendar/u0a103 (adj 985): empty #17
+10-30 01:00:17.859 I/Zygote  ( 1660): Process 2932 exited due to signal 9 (Killed)
+10-30 01:00:17.868 I/libprocessgroup( 1914): Successfully killed process cgroup uid 10103 pid 2932 in 36ms
+10-30 01:00:18.261 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:18.262 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:18.262 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:18.280 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@d5e0; boundsInParent: Rect(0, 0 - 954, 87); boundsInScreen: Rect(63, 812 - 1017, 766); packageName: dev.maestro.taskflow; className: android.widget.TextView; text: Hasta 120 caracteres. Tus tareas se guardan en este dispositivo.; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.281 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.281 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.292 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@870c; boundsInParent: Rect(0, 0 - 1080, 0); boundsInScreen: Rect(0, 63 - 1080, 63); packageName: com.android.inputmethod.latin; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/fullscreenArea; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.302 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.302 D/Maestro ( 3480): View hierarchy received in 41 ms
+10-30 01:00:18.305 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:18.415 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:18.416 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:18.417 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:18.434 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@d5e0; boundsInParent: Rect(0, 0 - 954, 87); boundsInScreen: Rect(63, 812 - 1017, 766); packageName: dev.maestro.taskflow; className: android.widget.TextView; text: Hasta 120 caracteres. Tus tareas se guardan en este dispositivo.; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: true; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_NEXT_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY - null, AccessibilityAction: ACTION_SET_SELECTION - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.434 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.434 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.440 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@870c; boundsInParent: Rect(0, 0 - 1080, 0); boundsInScreen: Rect(0, 63 - 1080, 63); packageName: com.android.inputmethod.latin; className: android.widget.LinearLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/fullscreenArea; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.448 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:18.448 D/Maestro ( 3480): View hierarchy received in 33 ms
+10-30 01:00:18.555 D/AndroidRuntime( 3646): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-30 01:00:18.556 E/libc    ( 3646): Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+10-30 01:00:18.556 I/AndroidRuntime( 3646): Using default boot image
+10-30 01:00:18.556 E/libc    ( 3646): Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+10-30 01:00:18.556 I/AndroidRuntime( 3646): Leaving lock profiling enabled
+10-30 01:00:18.556 E/libc    ( 3646): Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+10-30 01:00:18.557 I/app_process( 3646): Core platform API reporting enabled, enforcing=false
+10-30 01:00:18.540 W/app_process( 3646): type=1400 audit(0.0:28): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6750 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+10-30 01:00:18.540 I/chatty  ( 3646): uid=2000(shell) app_process identical 1 line
+10-30 01:00:18.540 W/app_process( 3646): type=1400 audit(0.0:30): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6750 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+10-30 01:00:18.584 D/ICU     ( 3646): Time zone APEX file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+10-30 01:00:18.586 W/app_process( 3646): Unexpected CPU variant for X86 using defaults: x86_64
+10-30 01:00:18.588 I/app_process( 3646): The ClassLoaderContext is a special shared library.
+10-30 01:00:18.594 W/app_process( 3646): JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+10-30 01:00:18.596 D/AndroidRuntime( 3646): Calling main entry com.android.commands.input.Input
+10-30 01:00:18.599 D/AutofillManagerService( 1914): onBackKeyPressed()
+10-30 01:00:18.601 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:18.601 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:18.602 D/AndroidRuntime( 3646): Shutting down VM
+10-30 01:00:18.606 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:18.606 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:18.617 D/EGL_emulation( 2065): eglMakeCurrent: 0x78a33316cba0: ver 3 0 (tinfo 0x78a3332e13e0)
+10-30 01:00:18.624 D/EGL_emulation( 2388): eglMakeCurrent: 0x78a37ebdaa60: ver 3 0 (tinfo 0x78a333d23280)
+10-30 01:00:19.279 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:19.280 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.280 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.291 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.291 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.298 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.298 D/Maestro ( 3480): View hierarchy received in 19 ms
+10-30 01:00:19.366 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:19.367 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.368 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.379 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.379 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.388 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.388 D/Maestro ( 3480): View hierarchy received in 22 ms
+10-30 01:00:19.504 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:19.505 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.514 I/ActivityManager( 1914): Killing 3033:com.android.cellbroadcastreceiver/u0a67 (adj 985): empty #17
+10-30 01:00:19.505 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.545 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:19.545 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:19.557 I/ActivityManager( 1914): Killing 3212:com.android.camera2/u0a114 (adj 985): empty #17
+10-30 01:00:19.568 I/Zygote  ( 1660): Process 3033 exited due to signal 9 (Killed)
+10-30 01:00:19.569 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:19.569 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:19.573 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:19.573 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:19.576 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:19.576 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:19.591 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:19.591 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:19.595 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:19.595 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:19.608 I/libprocessgroup( 1914): Successfully killed process cgroup uid 10067 pid 3033 in 84ms
+10-30 01:00:19.640 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.640 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.659 I/libprocessgroup( 1914): Successfully killed process cgroup uid 10114 pid 3212 in 50ms
+10-30 01:00:19.660 I/Zygote  ( 1660): Process 3212 exited due to signal 9 (Killed)
+10-30 01:00:19.698 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.698 D/Maestro ( 3480): View hierarchy received in 194 ms
+10-30 01:00:19.924 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:19.926 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.927 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:19.939 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.939 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.946 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:19.946 D/Maestro ( 3480): View hierarchy received in 22 ms
+10-30 01:00:20.034 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:20.037 D/UiDevice( 3480): Waiting 500ms for window update of package dev.maestro.taskflow.
+10-30 01:00:20.538 W/UiDevice( 3480): Timed out waiting 500ms on window update.
+10-30 01:00:20.538 W/UiDevice( 3480): java.util.concurrent.TimeoutException: Expected event not received within: 500 ms among: []
+10-30 01:00:20.538 W/UiDevice( 3480): 	at android.app.UiAutomation.executeAndWaitForEvent(UiAutomation.java:725)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at androidx.test.uiautomator.UiDevice.waitForWindowUpdate(UiDevice.java:1253)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at dev.mobile.maestro.Service.isWindowUpdating(MaestroDriverService.kt:361)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at maestro_android.MaestroDriverGrpc$MethodHandlers.invoke(MaestroDriverGrpc.java:965)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-30 01:00:20.538 W/UiDevice( 3480): 	at java.lang.Thread.run(Thread.java:919)
+10-30 01:00:20.644 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:20.647 D/UiDevice( 3480): Waiting 500ms for window update of package dev.maestro.taskflow.
+10-30 01:00:21.149 W/UiDevice( 3480): Timed out waiting 500ms on window update.
+10-30 01:00:21.149 W/UiDevice( 3480): java.util.concurrent.TimeoutException: Expected event not received within: 500 ms among: []
+10-30 01:00:21.149 W/UiDevice( 3480): 	at android.app.UiAutomation.executeAndWaitForEvent(UiAutomation.java:725)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at androidx.test.uiautomator.UiDevice.waitForWindowUpdate(UiDevice.java:1253)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at dev.mobile.maestro.Service.isWindowUpdating(MaestroDriverService.kt:361)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at maestro_android.MaestroDriverGrpc$MethodHandlers.invoke(MaestroDriverGrpc.java:965)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at io.grpc.stub.ServerCalls$UnaryServerCallHandler$UnaryServerCallListener.onHalfClose(ServerCalls.java:182)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at io.grpc.internal.ServerCallImpl$ServerStreamListenerImpl.halfClosed(ServerCallImpl.java:355)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1HalfClosed.runInContext(ServerImpl.java:867)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+10-30 01:00:21.149 W/UiDevice( 3480): 	at java.lang.Thread.run(Thread.java:919)
+10-30 01:00:21.222 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:21.223 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:21.227 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:21.239 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:21.239 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:21.244 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:21.244 D/Maestro ( 3480): View hierarchy received in 22 ms
+10-30 01:00:21.245 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:21.463 W/audio_hw_generic( 1692): Not supplying enough data to HAL, expected position 137545 , only wrote 137488
+10-30 01:00:21.488 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.488 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.504 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.504 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.505 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.505 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.506 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.506 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.507 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.507 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.508 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.508 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.509 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.509 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:21.510 E/memtrack( 1914): Couldn't load memtrack module
+10-30 01:00:21.510 W/android.os.Debug( 1914): failed to get memory consumption info: -1
+10-30 01:00:22.080 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.081 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.082 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.082 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.090 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.090 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.095 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.095 D/Maestro ( 3480): View hierarchy received in 14 ms
+10-30 01:00:22.095 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:22.152 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.153 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.153 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.162 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.162 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.166 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.166 D/Maestro ( 3480): View hierarchy received in 14 ms
+10-30 01:00:22.260 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.261 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.261 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.269 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.269 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.274 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.274 D/Maestro ( 3480): View hierarchy received in 14 ms
+10-30 01:00:22.371 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.371 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.372 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.381 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.381 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.387 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.387 D/Maestro ( 3480): View hierarchy received in 16 ms
+10-30 01:00:22.506 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.506 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.507 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.515 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.515 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.519 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.519 D/Maestro ( 3480): View hierarchy received in 13 ms
+10-30 01:00:22.620 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.621 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.621 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.629 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.629 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.635 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.635 D/Maestro ( 3480): View hierarchy received in 15 ms
+10-30 01:00:22.732 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.732 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.733 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.741 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.741 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.746 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.746 D/Maestro ( 3480): View hierarchy received in 15 ms
+10-30 01:00:22.770 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.771 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.772 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.782 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.782 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.788 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.788 D/Maestro ( 3480): View hierarchy received in 18 ms
+10-30 01:00:22.889 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:22.890 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.890 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:22.898 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.898 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.903 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:22.903 D/Maestro ( 3480): View hierarchy received in 14 ms
+10-30 01:00:23.003 D/Maestro ( 3480): Requesting view hierarchy
+10-30 01:00:23.003 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:23.004 W/QueryController( 3480): Could not detect idle state.
+10-30 01:00:23.012 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@b056; boundsInParent: Rect(0, 0 - 1080, 63); boundsInScreen: Rect(0, 0 - 1080, 63); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/statusBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:23.012 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@ac95; boundsInParent: Rect(0, 0 - 1080, 126); boundsInScreen: Rect(0, 1794 - 1080, 1920); packageName: dev.maestro.taskflow; className: android.view.View; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: android:id/navigationBarBackground; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:23.017 I/Maestro ( 3480): Skipping invisible child: android.view.accessibility.AccessibilityNodeInfo@209af; boundsInParent: Rect(0, 0 - 0, 63); boundsInScreen: Rect(540, 0 - 540, 63); packageName: com.android.systemui; className: android.widget.FrameLayout; text: null; error: null; maxTextLength: -1; contentDescription: null; tooltipText: null; viewIdResName: com.android.systemui:id/centered_icon_area; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; contextClickable: false; enabled: true; password: false; scrollable: false; importantForAccessibility: false; visible: false; actions: [AccessibilityAction: ACTION_SELECT - null, AccessibilityAction: ACTION_CLEAR_SELECTION - null, AccessibilityAction: ACTION_ACCESSIBILITY_FOCUS - null, AccessibilityAction: ACTION_SHOW_ON_SCREEN - null]
+10-30 01:00:23.017 D/Maestro ( 3480): View hierarchy received in 14 ms
+10-30 01:00:23.182 D/PermissionCache( 1747): checking android.permission.READ_FRAME_BUFFER for uid=2000 => granted (433 us)
+10-30 01:00:23.182 D/gralloc_ranchu( 1715): gralloc_alloc: Creating ashmem region of size 8298496
+10-30 01:00:23.346 I/hwservicemanager( 1566): getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+10-30 01:00:23.346 W/Gralloc3( 3469): mapper 3.x is not supported
+10-30 01:00:23.430 D/HostConnection( 3469): createUnique: call
+10-30 01:00:23.430 D/HostConnection( 3469): HostConnection::get() New Host Connection established 0x75f77f340580, tid 3479
+10-30 01:00:23.472 D/HostConnection( 3469): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:23.473 D/eglCodecCommon( 3469): allocate: Ask for block of size 0x1000
+10-30 01:00:23.473 D/eglCodecCommon( 3469): allocate: ioctl allocate returned offset 0x3ff803000 size 0x2000
+10-30 01:00:23.502 E/SurfaceFlinger( 1747): ro.sf.lcd_density must be defined as a build property
+10-30 01:00:23.503 E/SurfaceFlinger( 1747): ro.sf.lcd_density must be defined as a build property
+10-30 01:00:23.503 D/libEGL  ( 3469): Emulator has host GPU support, qemu.gles is set to 1.
+10-30 01:00:23.512 W/libc    ( 3469): Unable to set property "qemu.gles" to "1": error code: 0x18
+10-30 01:00:23.513 D/libEGL  ( 3469): loaded /vendor/lib64/egl/libEGL_emulation.so
+10-30 01:00:23.513 D/libEGL  ( 3469): loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+10-30 01:00:23.513 D/libEGL  ( 3469): loaded /vendor/lib64/egl/libGLESv2_emulation.so
+10-30 01:00:23.528 D/HostConnection( 3469): HostConnection::get() New Host Connection established 0x75f6eda72280, tid 3658
+10-30 01:00:23.530 D/HostConnection( 3469): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0 
+10-30 01:00:23.531 D/EGL_emulation( 3469): eglCreateContext: 0x75f6eda723c0: maj 3 min 0 rcv 3
+10-30 01:00:23.532 D/EGL_emulation( 3469): eglMakeCurrent: 0x75f6eda723c0: ver 3 0 (tinfo 0x75f6eda183c0)
+10-30 01:00:23.673 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+10-30 01:00:23.673 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+10-30 01:00:23.673 W/.mobile.maestr( 3480): Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)

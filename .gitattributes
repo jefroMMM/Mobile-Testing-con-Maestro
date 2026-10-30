@@ -6,4 +6,5 @@ gradlew text eol=lf
 *.png binary
 *.pdf binary
 *.jar binary
+evidencias/** -text whitespace=-trailing-space,-blank-at-eof
 

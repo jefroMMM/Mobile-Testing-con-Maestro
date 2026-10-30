@@ -11,4 +11,6 @@ tmp/
 __pycache__/
 .tools/
 *.hprof
+evidencias/setup/
+evidencias/runs/**/debug/
 

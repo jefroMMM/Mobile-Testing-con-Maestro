@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="3" failures="0" time="44.196" timestamp="2026-10-30T01:01:19">
+    <testcase id="01 - Crear una tarea valida" name="01 - Crear una tarea valida" classname="01 - Crear una tarea valida" file=".maestro/01-crear-tarea.yaml" time="17.08" timestamp="2026-10-30T01:01:19" status="SUCCESS">
+      <properties>
+        <property name="tags" value="rubrica, funcional"/>
+      </properties>
+    </testcase>
+    <testcase id="03 - Conservar una tarea al cerrar y reabrir" name="03 - Conservar una tarea al cerrar y reabrir" classname="03 - Conservar una tarea al cerrar y reabrir" file=".maestro/03-persistencia.yaml" time="17.086" timestamp="2026-10-30T01:01:36" status="SUCCESS">
+      <properties>
+        <property name="tags" value="rubrica, condicion-movil"/>
+      </properties>
+    </testcase>
+    <testcase id="02 - Impedir una tarea sin nombre" name="02 - Impedir una tarea sin nombre" classname="02 - Impedir una tarea sin nombre" file=".maestro/02-validar-nombre.yaml" time="10.008" timestamp="2026-10-30T01:01:53" status="SUCCESS">
+      <properties>
+        <property name="tags" value="rubrica, validacion"/>
+      </properties>
+    </testcase>
+  </testsuite>
+</testsuites>

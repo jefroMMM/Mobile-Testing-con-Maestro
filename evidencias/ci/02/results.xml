@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="1" failures="0" time="11.748" timestamp="2026-10-30T01:00:31">
+    <testcase id="02 - Impedir una tarea sin nombre" name="02 - Impedir una tarea sin nombre" classname="02 - Impedir una tarea sin nombre" file=".maestro/02-validar-nombre.yaml" time="11.731" timestamp="2026-10-30T01:00:31" status="SUCCESS">
+      <properties>
+        <property name="tags" value="rubrica, validacion"/>
+      </properties>
+    </testcase>
+  </testsuite>
+</testsuites>

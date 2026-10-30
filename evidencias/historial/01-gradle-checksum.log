@@ -1,0 +1,30 @@
+﻿2026-10-30T00:54:08.4382460Z ##[group]Run mkdir -p evidencias/ci/build output/apk
+2026-10-30T00:54:08.4383151Z [36;1mmkdir -p evidencias/ci/build output/apk[0m
+2026-10-30T00:54:08.4383574Z [36;1mchmod +x gradlew scripts/ci-tests.sh[0m
+2026-10-30T00:54:08.4384200Z [36;1m./gradlew --no-daemon --console=plain assembleDebug lintDebug 2>&1 | tee evidencias/ci/build/gradle.log[0m
+2026-10-30T00:54:08.4385300Z [36;1mcp app/build/outputs/apk/debug/app-debug.apk output/apk/taskflow-debug.apk[0m
+2026-10-30T00:54:08.4385957Z [36;1msha256sum output/apk/taskflow-debug.apk > evidencias/ci/build/apk-sha256.txt[0m
+2026-10-30T00:54:08.4386488Z [36;1mjava -version 2> evidencias/ci/java.txt[0m
+2026-10-30T00:54:08.4386933Z [36;1m./gradlew --version > evidencias/ci/gradle-version.txt[0m
+2026-10-30T00:54:08.4494489Z shell: /usr/bin/bash -e {0}
+2026-10-30T00:54:08.4495132Z env:
+2026-10-30T00:54:08.4495729Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-10-30T00:54:08.4496668Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+2026-10-30T00:54:08.4497491Z ##[endgroup]
+2026-10-30T00:54:08.9949574Z Downloading https://services.gradle.org/distributions/gradle-8.9-bin.zip
+2026-10-30T00:54:11.9293345Z ............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+2026-10-30T00:54:12.1265298Z ##[error]Exception in thread "main" java.lang.RuntimeException: Verification of Gradle distribution failed!
+2026-10-30T00:54:12.1267046Z 
+2026-10-30T00:54:12.1267285Z Your Gradle distribution may have been tampered with.
+2026-10-30T00:54:12.1268079Z Confirm that the 'distributionSha256Sum' property in your gradle-wrapper.properties file is correct and you are downloading the wrapper from a trusted source.
+2026-10-30T00:54:12.1268685Z 
+2026-10-30T00:54:12.1268947Z  Distribution Url: https://services.gradle.org/distributions/gradle-8.9-bin.zip
+2026-10-30T00:54:12.1269654Z Download Location: /home/runner/.gradle/wrapper/dists/gradle-8.9-bin/90cnw93cvbtalezasaz0blq0a/gradle-8.9-bin.zip
+2026-10-30T00:54:12.1272614Z Expected checksum: 'd725d707bfabd4dfdc958c624003b3c80accc03f7037b5122c4b1d0ef15cecaba'
+2026-10-30T00:54:12.1273691Z   Actual checksum: 'd725d707bfabd4dfdc958c624003b3c80accc03f7037b5122c4b1d0ef15cecab'
+2026-10-30T00:54:12.1274093Z 
+2026-10-30T00:54:12.1274753Z 	at org.gradle.wrapper.Install.verifyDownloadChecksum(SourceFile:2)
+2026-10-30T00:54:12.1275749Z 	at org.gradle.wrapper.Install$1.call(SourceFile:12)
+2026-10-30T00:54:12.1276700Z 	at org.gradle.wrapper.GradleWrapperMain.main(SourceFile:67)
+2026-10-30T00:54:12.1372995Z cp: cannot stat 'app/build/outputs/apk/debug/app-debug.apk': No such file or directory
+2026-10-30T00:54:12.1382766Z ##[error]Process completed with exit code 1.

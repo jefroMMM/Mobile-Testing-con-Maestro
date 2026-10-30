@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="1" failures="0" time="21.633" timestamp="2026-10-30T01:00:50">
+    <testcase id="03 - Conservar una tarea al cerrar y reabrir" name="03 - Conservar una tarea al cerrar y reabrir" classname="03 - Conservar una tarea al cerrar y reabrir" file=".maestro/03-persistencia.yaml" time="21.616" timestamp="2026-10-30T01:00:50" status="SUCCESS">
+      <properties>
+        <property name="tags" value="rubrica, condicion-movil"/>
+      </properties>
+    </testcase>
+  </testsuite>
+</testsuites>

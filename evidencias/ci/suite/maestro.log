@@ -1,0 +1,8 @@
+
+Waiting for flows to complete...
+[Passed] 01 - Crear una tarea valida (17s)
+[Passed] 03 - Conservar una tarea al cerrar y reabrir (17s)
+[Passed] 02 - Impedir una tarea sin nombre (10s)
+
+3/3 Flows Passed in 44s
+

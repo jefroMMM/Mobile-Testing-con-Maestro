@@ -1,0 +1,62 @@
+01:01:36.460 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Define variables RUNNING
+01:01:36.461 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Define variables COMPLETED
+01:01:36.461 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Apply configuration RUNNING
+01:01:36.461 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Apply configuration COMPLETED
+01:01:36.462 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Launch app "dev.maestro.taskflow" with clear state RUNNING
+01:01:36.462 [ INFO] maestro.Maestro.clearAppState$lambda$9: Clearing app state dev.maestro.taskflow
+01:01:36.830 [ INFO] maestro.Maestro.launchApp$lambda$6: Launching app dev.maestro.taskflow
+01:01:36.830 [ INFO] maestro.Maestro.launchApp$lambda$6: Stopping dev.maestro.taskflow app during launch
+01:01:36.899 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Launch app "dev.maestro.taskflow" with clear state COMPLETED
+01:01:36.901 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that id: dev.maestro.taskflow:id/empty_state is visible RUNNING
+01:01:37.781 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that id: dev.maestro.taskflow:id/empty_state is visible COMPLETED
+01:01:37.781 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that id: dev.maestro.taskflow:id/empty_state is visible RUNNING
+01:01:37.911 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that id: dev.maestro.taskflow:id/empty_state is visible COMPLETED
+01:01:37.912 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on id: dev.maestro.taskflow:id/new_task_button RUNNING
+01:01:38.081 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=+  Nueva tarea, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=dev.maestro.taskflow:id/new_task_button, clickable=true, bounds=[63,1594][1017,1741], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.Button, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=63, y=1594, width=954, height=147))
+01:01:39.321 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+01:01:39.322 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (540, 1667) using hierarchy based logic for wait
+01:01:40.156 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+01:01:40.156 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on id: dev.maestro.taskflow:id/new_task_button COMPLETED
+01:01:40.156 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on id: dev.maestro.taskflow:id/task_name_input RUNNING
+01:01:40.271 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=, accessibilityText=, hintText=Ej.: Preparar la exposición, ignoreBoundsFiltering=false, resource-id=dev.maestro.taskflow:id/task_name_input, clickable=true, bounds=[63,662][1017,814], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.EditText, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=63, y=662, width=954, height=152))
+01:01:41.541 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+01:01:41.541 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (540, 738) using hierarchy based logic for wait
+01:01:42.961 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+01:01:42.962 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on id: dev.maestro.taskflow:id/task_name_input COMPLETED
+01:01:42.962 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Input text Revisar tarea persistente RUNNING
+01:01:42.963 [ INFO] maestro.Maestro.inputText: Inputting text: Revisar tarea persistente
+01:01:47.567 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Input text Revisar tarea persistente COMPLETED
+01:01:47.567 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Hide Keyboard RUNNING
+01:01:47.568 [ INFO] maestro.Maestro.hideKeyboard$lambda$13: Hiding Keyboard
+01:01:48.421 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Hide Keyboard COMPLETED
+01:01:48.421 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on id: dev.maestro.taskflow:id/save_task_button RUNNING
+01:01:48.503 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Guardar tarea, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=dev.maestro.taskflow:id/save_task_button, clickable=true, bounds=[63,1594][1017,1741], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.Button, important-for-accessibility=true, error=}, children=[], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=63, y=1594, width=954, height=147))
+01:01:49.755 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+01:01:49.756 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (540, 1667) using hierarchy based logic for wait
+01:01:50.651 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+01:01:50.651 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on id: dev.maestro.taskflow:id/save_task_button COMPLETED
+01:01:50.651 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Revisar tarea persistente", id: dev.maestro.taskflow:id/task_title is visible RUNNING
+01:01:50.761 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Revisar tarea persistente", id: dev.maestro.taskflow:id/task_title is visible COMPLETED
+01:01:50.761 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot 03-persistencia/antes RUNNING
+01:01:50.762 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+01:01:50.762 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+01:01:50.902 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot 03-persistencia/antes COMPLETED
+01:01:50.903 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Stop dev.maestro.taskflow RUNNING
+01:01:50.904 [ INFO] maestro.Maestro.stopApp$lambda$7: Stopping app dev.maestro.taskflow
+01:01:50.949 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Stop dev.maestro.taskflow COMPLETED
+01:01:50.950 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Launch app "dev.maestro.taskflow" RUNNING
+01:01:51.160 [ INFO] maestro.Maestro.launchApp$lambda$6: Launching app dev.maestro.taskflow
+01:01:51.160 [ INFO] maestro.Maestro.launchApp$lambda$6: Stopping dev.maestro.taskflow app during launch
+01:01:51.224 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Launch app "dev.maestro.taskflow" COMPLETED
+01:01:51.224 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Revisar tarea persistente", id: dev.maestro.taskflow:id/task_title is visible RUNNING
+01:01:52.121 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Revisar tarea persistente", id: dev.maestro.taskflow:id/task_title is visible COMPLETED
+01:01:52.121 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Revisar tarea persistente", id: dev.maestro.taskflow:id/task_title is visible RUNNING
+01:01:52.211 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Revisar tarea persistente", id: dev.maestro.taskflow:id/task_title is visible COMPLETED
+01:01:52.211 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "1 tarea.*0 completadas", id: dev.maestro.taskflow:id/task_count is visible RUNNING
+01:01:52.331 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "1 tarea.*0 completadas", id: dev.maestro.taskflow:id/task_count is visible COMPLETED
+01:01:52.332 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that id: dev.maestro.taskflow:id/empty_state is not visible RUNNING
+01:01:53.060 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that id: dev.maestro.taskflow:id/empty_state is not visible COMPLETED
+01:01:53.060 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot 03-persistencia/despues RUNNING
+01:01:53.061 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+01:01:53.061 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+01:01:53.371 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot 03-persistencia/despues COMPLETED

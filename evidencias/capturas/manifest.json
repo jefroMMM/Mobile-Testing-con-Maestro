@@ -1,0 +1,32 @@
+[
+  {
+    "path": "evidencias/capturas/01-creacion/resultado.png",
+    "sha256": "de62c8936971b81dde79f2ac39cb13cbe3571df47cf5063924dd06c73c600642",
+    "source": "Copy without modification from CI run 40982924351 artifact"
+  },
+  {
+    "path": "evidencias/capturas/02-validacion/error.png",
+    "sha256": "18cdf9e40ec5540abbd1a41a6609ee1218b0d493e857d1228bfca417ba94ccbc",
+    "source": "Copy without modification from CI run 40982924351 artifact"
+  },
+  {
+    "path": "evidencias/capturas/02-validacion/lista-vacia.png",
+    "sha256": "966e99759bebba79238f545498aff6b503a4c1a34160b163bf4918cd7db13315",
+    "source": "Copy without modification from CI run 40982924351 artifact"
+  },
+  {
+    "path": "evidencias/capturas/03-persistencia/antes.png",
+    "sha256": "e677223cf3fa1285d1fdf9698eeacb06467126ab348f0a37f64abaaaceb6a441",
+    "source": "Copy without modification from CI run 40982924351 artifact"
+  },
+  {
+    "path": "evidencias/capturas/03-persistencia/despues.png",
+    "sha256": "e677223cf3fa1285d1fdf9698eeacb06467126ab348f0a37f64abaaaceb6a441",
+    "source": "Copy without modification from CI run 40982924351 artifact"
+  },
+  {
+    "path": "evidencias/capturas/04-completar/resultado.png",
+    "sha256": "b78f1126c30ba5e1bc69778c07c961910f2dd211418e4b799c9ae2f4b24718b1",
+    "source": "Copy without modification from CI run 40982924351 artifact"
+  }
+]

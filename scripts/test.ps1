@@ -19,4 +19,3 @@ try {
     @{ scenario=$Scenario; timestamp=$stamp; timezone='America/Guatemala'; exitCode=$code; result=$(if($code -eq 0){'aprobado'}else{'fallido'}); command='Maestro CLI test'; } | ConvertTo-Json | Set-Content -LiteralPath "$runDir/result.json" -Encoding utf8
     if ($code -ne 0) { throw "Maestro terminó con código $code. Revisa $runDir/maestro.log" }
 } finally { Pop-Location }
-

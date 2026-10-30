@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-29T19:06:12-06:00",
+  "timezone": "America/Guatemala",
+  "os": "Microsoft Windows 11 Pro",
+  "osVersion": "10.0.26200",
+  "architecture": "64 bits",
+  "cpu": "Intel(R) Core(TM) i5-7440HQ CPU @ 2.80GHz",
+  "firmwareVirtualization": false,
+  "powershell": "7.6.5",
+  "java": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment Temurin-17.0.20.1+1 (build 17.0.20.1+1)\nOpenJDK 64-Bit Server VM Temurin-17.0.20.1+1 (build 17.0.20.1+1, mixed mode, sharing)",
+  "adb": "Android Debug Bridge version 1.0.41\nVersion 37.0.1-15733141",
+  "maestro": "2.12.0",
+  "manufacturer": "Xiaomi",
+  "model": "24090RA29G",
+  "androidVersion": "16",
+  "androidApi": "36",
+  "usbSerial": "Omitido deliberadamente; no se publica un identificador personal del dispositivo."
+}

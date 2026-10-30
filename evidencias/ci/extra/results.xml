@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="1" failures="0" time="20.613" timestamp="2026-10-30T01:02:10">
+    <testcase id="04 - Completar una tarea y conservar su estado" name="04 - Completar una tarea y conservar su estado" classname="04 - Completar una tarea y conservar su estado" file=".maestro/extras/04-completar-tarea.yaml" time="20.597" timestamp="2026-10-30T01:02:10" status="SUCCESS">
+      <properties>
+        <property name="tags" value="adicional"/>
+      </properties>
+    </testcase>
+  </testsuite>
+</testsuites>

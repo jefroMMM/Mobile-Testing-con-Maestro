@@ -9,4 +9,3 @@ try {
     Copy-Item -LiteralPath 'app/build/outputs/apk/debug/app-debug.apk' -Destination 'output/apk/taskflow-debug.apk' -Force
     Get-FileHash -LiteralPath 'output/apk/taskflow-debug.apk' -Algorithm SHA256 | Format-List | Out-File -LiteralPath "$out/apk-sha256.txt"
 } finally { Pop-Location }
-

@@ -31,4 +31,3 @@ for scenario in 01 02 03 suite extra; do
 done
 adb logcat -d -s AndroidRuntime:E > evidencias/ci/android-errors.log
 exit "$failed"
-
