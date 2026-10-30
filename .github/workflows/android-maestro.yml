@@ -6,6 +6,9 @@ on:
     paths-ignore: ['docs/**', 'evidencias/**', '*.md', 'output/pdf/**']
 permissions:
   contents: read
+defaults:
+  run:
+    shell: bash
 jobs:
   android:
     runs-on: ubuntu-22.04
@@ -28,7 +31,7 @@ jobs:
       - name: Install pinned Maestro
         run: |
           curl -fsSL https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.12.0/maestro.zip -o /tmp/maestro.zip
-          echo '6044a84542f522f434c5dc3d609e60c7446d423f3ed1b2ae513f5c48663ec5e  /tmp/maestro.zip' | sha256sum --check
+          echo 'a6044a84542f522f434c5dc3d609e60c7446d423f3ed1b2ae513f5c48663ec5e  /tmp/maestro.zip' | sha256sum --check
           unzip -q /tmp/maestro.zip -d "$HOME"
           echo "$HOME/maestro/bin" >> "$GITHUB_PATH"
       - name: Enable KVM

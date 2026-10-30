@@ -20,7 +20,7 @@ if (-not (Test-Path -LiteralPath "$ToolRoot/android-sdk/cmdline-tools/latest/bin
     Move-Item -LiteralPath "$ToolRoot/cmdline/cmdline-tools" -Destination "$ToolRoot/android-sdk/cmdline-tools/latest"
 }
 if (-not (Test-Path -LiteralPath "$ToolRoot/maestro/bin/maestro.bat")) {
-    Get-VerifiedArchive 'https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.12.0/maestro.zip' "$ToolRoot/maestro.zip" '6044a84542f522f434c5dc3d609e60c7446d423f3ed1b2ae513f5c48663ec5e'
+    Get-VerifiedArchive 'https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.12.0/maestro.zip' "$ToolRoot/maestro.zip" 'a6044a84542f522f434c5dc3d609e60c7446d423f3ed1b2ae513f5c48663ec5e'
     Expand-Archive -LiteralPath "$ToolRoot/maestro.zip" -DestinationPath $ToolRoot -Force
 }
 . "$PSScriptRoot/env.ps1"
